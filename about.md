@@ -3,27 +3,22 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## Whoami
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Hi my name is Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching varied interests. I work in Information Technology as a Systems Administrator in Alabama. My background is in system/network administration, python, and information security.
 
-There are currently two themes built on Poole:
+When I'm not hacking or working, I'm busy catching up with my little one Aidan and spending time with my beautiful wife LJ. I'm also avid reader and gamer (mainly World of Warcraft.) I also enjoy playing guitar, working out, and watching anime.
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+## Certifications
+- Cisco Certified Network Associate (CCNA)
+- Currently working on CompTIA Network+
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
+## About this site
 
 Some fun facts about the setup of this project include:
 
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+- Built for [Jekyll](https://jekyllrb.com), a static site generator
+- Developed on GitHub and hosted for free ($0) on [GitHub Pages](https://pages.github.com)
+- Content made with [Typora](https://typora.io/) and [Atom](https://atom.io), an amazing open source code editor
 
 Thanks for reading!
