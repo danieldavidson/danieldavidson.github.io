@@ -23,6 +23,10 @@ This site serves as an external memory source to note and share my experiences. 
 
 Some fun facts about the setup of this project include:
 
+<p>
+<img style="float: left;" src="img/octocat.png" width="300" height="251" alt="Free Jekyll hosting on GitHub Pages">
+</p>
+
 - Built for [Jekyll](https://jekyllrb.com), a static site generator
 - Developed on GitHub and hosted for free ($0) on [GitHub Pages](https://pages.github.com)
 - Content made with [Typora](https://typora.io/) and [Atom](https://atom.io), an amazing open source code editor
