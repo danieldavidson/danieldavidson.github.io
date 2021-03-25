@@ -24,7 +24,7 @@ This site serves as an external memory source to note and share my experiences. 
 
 Some fun facts about the setup of this project include: <img src="/img/octocat.gif" style="zoom:25%; float: right; border: 1px solid; border-radius: 1000px;" />
 
-- Built for [Jekyll](https://jekyllrb.com), a static site generator
+- Built using [Jekyll](https://jekyllrb.com), a static site generator
 - Developed on GitHub and hosted for free ($0) on [GitHub Pages](https://pages.github.com)
 - Content made with [Typora](https://typora.io/) and [Atom](https://atom.io), an amazing open source code editor
 
