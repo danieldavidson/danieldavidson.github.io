@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+------
+
 
 Hi, I'm Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching varied interests. I work in Information Technology as a Systems Administrator in Alabama. My background is in system/network administration, python, and information security.
 
@@ -19,7 +21,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 
 > *"How great is the sum of thy thoughts? If I should count them, they are more in number than the sand."*
 
-This site serves as an external memory source to note and share my experiences. 
+This site serves as an external memory source to note and share my experiences. It is my intention through this endeavor to document resources and findings that I have to found to be critical to my progress as an sysadmin and InfoSec student. I hope, not only will this be a learning experience for myself, but a resource for others as well.
 
 Some fun facts about the setup of this project include:
 
