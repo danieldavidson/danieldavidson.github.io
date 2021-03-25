@@ -22,7 +22,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 
 This site serves as an external memory source to note and share my experiences. It is my intention through this endeavor to document resources and findings that I have to found to be critical to my progress as a sysadmin professional and InfoSec student. I hope, not only will this be a learning experience for myself, but a resource for others as well.
 
-Some fun facts about the setup of this project include: <img src="/img/octocat.png" style="background-color: white; zoom:25%; float: right; border: 1px solid; border-radius: 100px;" />
+Some fun facts about the setup of this project include: <img src="/img/octocat.gif" style="zoom:25%; float: right; border: 1px solid; border-radius: 100px;" />
 
 - Built for [Jekyll](https://jekyllrb.com), a static site generator
 - Developed on GitHub and hosted for free ($0) on [GitHub Pages](https://pages.github.com)
