@@ -4,7 +4,7 @@ title: About
 ---
 
 
-Hi my name is Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching varied interests. I work in Information Technology as a Systems Administrator in Alabama. My background is in system/network administration, python, and information security.
+Hi, I'm Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching varied interests. I work in Information Technology as a Systems Administrator in Alabama. My background is in system/network administration, python, and information security.
 
 When I'm not hacking or working, I'm busy trying to keep up with my little one and spending time with my beautiful wife. I'm also an avid reader and gamer (mainly World of Warcraft.) I also enjoy playing guitar, working out, and watching anime.
 
@@ -16,6 +16,10 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 ------
 
 ## About this site
+
+> *"How great is the sum of thy thoughts? If I should count them, they are more in number than the sand."*
+
+This site serves as an external memory source to note and share my experiences. 
 
 Some fun facts about the setup of this project include:
 
