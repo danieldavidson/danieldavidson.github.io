@@ -87,6 +87,11 @@ a {
   color: $accent-color;
 }
 
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 a.post-title-text {
   //color: #ff7f50; //original
   color: #9ADD15;
