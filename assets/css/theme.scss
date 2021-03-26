@@ -17,16 +17,18 @@
 //********************************************************
 
 // Several accent colors, choose one or create your own!
-$accent-color: #3CA2A2;    // original =)
+//$accent-color: #3CA2A2;    // original =)
 //$accent-color: #C38FD6;  // velvet
 //$accent-color: #8FD6B3;  // greenish
 //$accent-color: #35B4DE;  // bluish
 //$accent-color: #D2E354;  // yellowish
 //$accent-color: #52B54B;  // green
 //$accent-color: #8BC53F;  // hacker green
+$accent-color: #a4b1cd;    // light blue
 
 $font-color: #dddddd;
-$background-color: #292929;
+//$background-color: #292929; //original
+$background-color: #151D2C;
 $post-panel-color: #39393a;
 $footer-background-color: #292c2f;
 $note-color: #87CEFA;
@@ -53,12 +55,12 @@ body {
   width: 75%;
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.17em; }
-h4 { font-size: 1.12em; }
-h5 { font-size: .83em; }
-h6 { font-size: .75em; }
+h1 { font-size: 2em; color: #9ADD15; }
+h2 { font-size: 1.5em; color: #9ADD15; }
+h3 { font-size: 1.17em; color: #9ADD15; }
+h4 { font-size: 1.12em; color: #9ADD15; }
+h5 { font-size: .83em; color: #9ADD15; }
+h6 { font-size: .75em; color: #9ADD15; }
 
 img {
   display: inline-block;
@@ -84,7 +86,8 @@ a {
 }
 
 a.post-title-text {
-  color: #ff7f50;
+  //color: #ff7f50; //original
+  color: #9ADD15;
 }
 
 //********************************************************
@@ -242,7 +245,8 @@ blockquote.warning p{
 //                    Header
 //********************************************************
 nav {
-  background-color: #222;
+  //background-color: #222; // original
+  background-color: #111927;
   border-color: #080808;
   font-size: 18px;
   font-family: "Ubuntu", sans-serif;
