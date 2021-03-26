@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: Daniel Davidson
+name: Daniel's blog
 description: System Admin
 
 # Url is currently only used only for the RSS feed in feed.xml
@@ -14,17 +14,17 @@ author: Daniel Davidson
 copyright: 2015-2021
 
 share:
-  facebook: false
-  twitter: false
-  gplus: false
+  facebook: true
+  twitter: true
+  gplus: true
   linkedin: true
-  pinterest: false
+  pinterest: true
   email: true
 
 social:
   github: danieldavidson
   stackoverflow: ''
-  linkedin:
+  linkedin: ''
   instagram: ''
   lastfm: ''
   rss: feed.xml
@@ -39,7 +39,7 @@ yandex_metrica:
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: danieldavidson
-comments: false
+comments: enable
 
 permalink: /:year/:month/:title/
 
