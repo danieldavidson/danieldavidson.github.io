@@ -3,6 +3,10 @@ layout: page
 ---
 
 {% for post in site.posts limit:10 %}
+<div class="post-time">
+    <i class="fa fa-calendar-alt"></i>
+    <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date_to_string }}</time>
+</div>
 <h2 class="post-title">
     <a href="{{ post.url | relative_url }}">
         {{ post.title }}
