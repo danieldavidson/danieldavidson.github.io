@@ -165,10 +165,11 @@ h2.post-title {
   text-align: left;
 }
 div.post-meta {
-  z-index: 1;
-  border-width: 1px 0;
-  border-color: #666666;
-  border-style: solid;
+  //z-index: 1;
+  //border-width: 1px 0;
+  //border-color: #666666;
+  //border-style: solid;
+  display: inline;
   margin: 0 0 20px;
   ul {
     display: inline;

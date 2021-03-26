@@ -14,17 +14,18 @@ layout: page
 </h2>
 
 <div class="post-meta">
+    <div class="post-descr">
+        <p>
+            {{ post.description }}
+        </p>
+    </div>
     <ul>
         {% for tag in post.tags %}
         <li><a href="{{'/tag/' | append: tag | relative_url }}">{{ tag }}</a></li>
         {% endfor %}
     </ul>
 </div>
-<div class="post-descr">
-    <p>
-        {{ post.description }}
-    </p>
-</div>
+
 <hr style="background-color: white">
 {% endfor %}
 
