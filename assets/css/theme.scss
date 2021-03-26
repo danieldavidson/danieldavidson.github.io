@@ -48,7 +48,7 @@ body {
   font-size: 14px;
 }
 .main-page {
-  width: 100%;
+  width: 75%;
 }
 
 h1 { font-size: 2em; }
@@ -79,6 +79,10 @@ blockquote {
 
 a {
   color: $accent-color;
+}
+
+a.post-title-text {
+  color: #9fef00;
 }
 
 //********************************************************
