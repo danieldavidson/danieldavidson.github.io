@@ -33,15 +33,15 @@ sass:
 # Specify the author for blog posts
 author:
   name: Daniel Davidson
-  url: 
-  email: 
+  url:
+  email:
 
 # Custom vars
 version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Weblog
+  - title: Blog
     url: /archive
 
   - title: Resources
