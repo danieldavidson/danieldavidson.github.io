@@ -26,6 +26,12 @@
     </li>
   {% endif %}
 
+  {% if site.social.goodreads %}
+    <li>
+      <a title="{{ site.social.goodreads }} on Instagram" href="https://goodreads.com/{{ site.social.goodreads }}" target="_blank"><i class="fab fa-goodreads fa-2x"></i></a>
+    </li>
+  {% endif %}
+
   {% if site.social.instagram %}
     <li>
       <a title="{{ site.social.instagram }} on Instagram" href="https://instagram.com/{{ site.social.instagram }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
