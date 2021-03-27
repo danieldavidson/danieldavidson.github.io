@@ -132,7 +132,8 @@ ul.social-media {
     display: inline-block;
     color: white;
     &:hover {
-      color: $accent-color;
+      //color: $accent-color;
+      color: #9ADD15;
     }
   }
 }
