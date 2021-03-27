@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-
 ---
 
 Hi, I'm Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching varied interests. I work in Information Technology as a Systems Administrator in Alabama. My background is in system/network administration, python, and information security.
