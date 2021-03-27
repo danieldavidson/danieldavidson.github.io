@@ -447,7 +447,8 @@ table.inner-borders {
   display: block;
 }
 .filename{
-  background-color: #292929;
+  //background-color: #292929; // original
+  background-color: #21252b; 
   color: lightgrey;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
