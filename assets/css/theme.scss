@@ -110,7 +110,8 @@ a.post-title-text:hover {
   text-decoration: underline;
 }
 
-container container-center.container {
+@media (min-width: 1200px)
+.container {
     max-width: 1170px;
 }
 
