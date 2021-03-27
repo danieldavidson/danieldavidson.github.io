@@ -35,7 +35,8 @@ $linenos: #A9B7C6;
     white-space: pre;
     //background-color: #333; // original
     //background-color: #21252b; // dark-grey
-    background-color: #121d2c;
+    //background-color: #121d2c; // dark-blue;
+    background-color: #232c34;
     color: #ddd !important;
     code {
       white-space: pre;
@@ -70,7 +71,8 @@ p > pre,
 p > code,
 .note > code {
   color: tomato;
-  background-color: #333;
+  //background-color: #333; // original
+  background-color: #232c34;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
