@@ -103,6 +103,13 @@ a:hover {
   color: white;
 }
 
+a.nav-item.nav-link:active {
+    color: #9ADD15;
+    border: 1px solid #9ADD15;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
 a.post-title-text {
   //color: #ff7f50; //original
   color: #9ADD15;
