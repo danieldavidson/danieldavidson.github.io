@@ -293,6 +293,12 @@ nav {
   .navbar-brand:hover, .nav-link:hover {
     color: white !important;
   }
+  .nav-link:focus {
+      color: #9ADD15;
+      border: 1px solid #9ADD15;
+      border-radius: 5px;
+      padding: .5rem 1rem;
+  }
   .navbar-brand {
     font-size: 30px;
     color: #777;
@@ -311,12 +317,7 @@ nav {
     margin: 8px 15px 8px 0;
   }
 }
-a.nav-item.nav-link {
-    color: #9ADD15;
-    border: 1px solid #9ADD15;
-    border-radius: 5px;
-    padding: .5rem 1rem;
-}
+
 
 nav.shrink {
   a {
