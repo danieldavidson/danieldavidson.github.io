@@ -103,13 +103,6 @@ a:hover {
   color: white;
 }
 
-a.nav-item.nav-link:active {
-    color: #9ADD15;
-    border: 1px solid #9ADD15;
-    border-radius: 5px;
-    padding: .5rem 1rem;
-}
-
 a.post-title-text {
   //color: #ff7f50; //original
   color: #9ADD15;
@@ -315,6 +308,12 @@ nav {
   .shrink .navbar-toggler {
     padding: 4px 5px;
     margin: 8px 15px 8px 0;
+  }
+  .nav-link:active {
+      color: #9ADD15;
+      border: 1px solid #9ADD15;
+      border-radius: 5px;
+      padding: .5rem 1rem;
   }
 }
 
