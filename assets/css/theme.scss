@@ -309,12 +309,12 @@ nav {
     padding: 4px 5px;
     margin: 8px 15px 8px 0;
   }
-  .nav-link:active {
-      color: #9ADD15;
-      border: 1px solid #9ADD15;
-      border-radius: 5px;
-      padding: .5rem 1rem;
-  }
+}
+a.nav-item.nav-link:active {
+    color: #9ADD15;
+    border: 1px solid #9ADD15;
+    border-radius: 5px;
+    padding: .5rem 1rem;
 }
 
 nav.shrink {
