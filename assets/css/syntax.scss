@@ -27,17 +27,17 @@ $foreground: #A9B7C6;
 $background: #2B2B2B;
 $selectionForeground: #A9B7C6;
 $selectionBackground: #214283;
-$operators: #D3646C;
-$strings: #C5F467;
-$names: #88be05;
-$keywords: #CF8DF8;
-$varAndProp: #A4B1CD;
+$operators: #D3646C; //changed
+$strings: #C5F467; //changed
+$names: #FFCC5C; //changed
+$keywords: #CF8DF8; //changed
+$varAndProp: #A4B1CD; //changed
 $numbers: #6897BB;
 $tag: #f1c829;
 $attributes: #9876AA;
 $comments: #75715e;
 $linenos: #A9B7C6;
-$punctuation: #5CECC6;
+$punctuation: #5CECC6; //changed
 .highlight {
   margin-bottom: 1.5em;
   color: $foreground;
