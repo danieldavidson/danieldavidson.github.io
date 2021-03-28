@@ -68,7 +68,7 @@ def find_columnLength(column, column_num):
       payload = "cn' or (select length({}) from users limit {},1) = {}-- -".
       format(
             column, column_num, length)
-      ........................................................
+........................................................
 {% endhighlight %}
 
 
