@@ -30,7 +30,7 @@ $selectionBackground: #214283;
 $operators: #D3646C;
 $strings: #C5F467;
 $names: #88be05;
-$keywords: #CB772F;
+$keywords: #CF8DF8;
 $varAndProp: #A4B1CD;
 $numbers: #6897BB;
 $tag: #f1c829;
@@ -123,7 +123,7 @@ p > code,
 .gs { font-weight: bold } /* Generic.Strong */
 .kc { color: $keywords } /* Keyword.Constant */
 .kd { color: $keywords } /* Keyword.Declaration */
-.kn { color: $operators } /* Keyword.Namespace */
+.kn { color: $keywords } /* Keyword.Namespace */
 .kp { color: $keywords } /* Keyword.Pseudo */
 .kr { color: $keywords } /* Keyword.Reserved */
 .kt { color: $keywords } /* Keyword.Type */
