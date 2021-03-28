@@ -231,7 +231,7 @@ p > code,
 .sr { color: $strings } /* Literal.String.Regex */
 .s1 { color: $strings } /* Literal.String.Single */
 .ss { color: $strings } /* Literal.String.Symbol */
-.bp { color: $varAndProp  } /* Name.Builtin.Pseudo */
+.bp { color: $numbers  } /* Name.Builtin.Pseudo */
 .vc { color: $varAndProp } /* Name.Variable.Class */
 .vg { color: $varAndProp } /* Name.Variable.Global */
 .vi { color: $varAndProp } /* Name.Variable.Instance */
