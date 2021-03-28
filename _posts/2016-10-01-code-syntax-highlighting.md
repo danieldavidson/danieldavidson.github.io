@@ -37,6 +37,11 @@ XML with line numbers (linenos flag), `{{ "{%" }} highlight xml linenos %}`:
 >Python
 {:.filename}
 {% highlight python %}
+import string
+import sys
+
+import requests
+
 # Define the class
 class Employee:
     name = "Mostak Mahmud"
