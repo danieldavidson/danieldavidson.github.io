@@ -131,7 +131,7 @@ p > code,
 .m { color: $numbers} /* Literal.Number */
 .s { color: $strings } /* Literal.String */
 .na { color: $attributes } /* Name.Attribute */
-.nb { color: $varAndProp } /* Name.Builtin */
+.nb { color: $names } /* Name.Builtin */
 .nc { color: $names } /* Name.Class */
 .no { color: $keywords } /* Name.Constant */
 .nd { color: #f1c829 } /* Name.Decorator */
