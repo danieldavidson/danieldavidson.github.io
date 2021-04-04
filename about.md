@@ -26,12 +26,12 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
       <div class="col-sm-4 col-lg-2">
         <a href="https://www.hackthebox.eu/" target="_blank"><img class="img-fluid img-grayscale" src="/assets/images/about/htb.png" alt="HackTheBox"></a>
       </div>
-      <!-- <div class="col-sm-4 col-lg-2">
-        <a href="https://www.udacity.com/" target="_blank"><img class="img-fluid img-grayscale" src="/assets/images/about/udacity.png" alt="Udacity"></a>
-      </div> -->
       <div class="col-sm-4 col-lg-2">
-        <a href="https://academy.tcm-sec.com/" target="_blank"><img class="img-fluid img-grayscale" src="/assets/images/about/tcm.png" alt="TCM Security"></a>
+        <a href="https://www.udacity.com/" target="_blank"><img class="img-fluid img-grayscale" src="/assets/images/about/udacity.png" alt="Udacity"></a>
       </div>
+      <!-- <div class="col-sm-4 col-lg-2">
+        <a href="https://academy.tcm-sec.com/" target="_blank"><img class="img-fluid img-grayscale" src="/assets/images/about/tcm.png" alt="TCM Security"></a>
+      </div> -->
       <div class="col-sm-4 col-lg-2">
         <a href="https://www.freecodecamp.org/" target="_blank"><img class="img-fluid img-grayscale" src="/assets/images/about/freecodecamp.png" alt="Free Code Camp"></a>
       </div>
