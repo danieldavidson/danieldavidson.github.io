@@ -15,22 +15,22 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 
 <div class="row">
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/education/hau.png" alt="Holy Angel University">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/hau.png" alt="Holy Angel University">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/education/udacity.png" alt="Udacity">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udacity.png" alt="Udacity">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/education/udemy-new.png" alt="Udemy">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udemy-new.png" alt="Udemy">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/education/freecodecamp.png" alt="Free Code Camp">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/freecodecamp.png" alt="Free Code Camp">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/education/youtube.png" alt="YouTube">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/youtube.png" alt="YouTube">
       </div>
 </div>
 
