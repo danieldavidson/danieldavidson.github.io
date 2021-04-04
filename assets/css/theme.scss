@@ -493,12 +493,6 @@ table.inner-borders {
 
 //********************************************************
 
-@media only screen and (min-width: 0)
-.row .col-sm-4 {
-    width: 33.33333%;
-    float: left;
-}
-
 @media (min-width: 1000px) {
   .twoRow .navbar-collapse {
     clear: left;
@@ -513,4 +507,7 @@ table.inner-borders {
   .footer-distributed .footer {
     line-height: 1.8;
   }
+  .row .col-sm-4 {
+      width: 33.33333%;
+      float: left;
 }
