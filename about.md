@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-## About Me
+# About Me
 Hi, I'm Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching interests varying in Computer Science/Information Technology, InfoSec, and occasionally Philosophy and Psychology. I work in the Information Technology sector as a Systems Administrator in Alabama. My background is in system/network administration, python, and information security.
 
 When I'm not hacking or working, I'm busy trying to keep up with my little one and spending time with my beautiful wife. I'm an avid [reader](https://goodreads.com/daniel_reads) and gamer (mainly World of Warcraft.) I also enjoy playing guitar, working out, and watching [anime](https://myanimelist.net/animelist/danieru_anime?status=2).
@@ -40,7 +40,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 
 ------
 
-## About this site
+# About this site
 
 > *"How great is the sum of thy thoughts? If I should count them, they are more in number than the sand."*
 
