@@ -470,12 +470,11 @@ table.inner-borders {
   }
 }
 
-.row-eduslider {
-  background-color: transparent;
+.education {
   filter: grayscale(1);
 }
 
-.row-eduslider:hover {
+.row col-sm4 col-lg-2:hover {
   filter: grayscale(0);
 }
 

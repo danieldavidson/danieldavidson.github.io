@@ -14,8 +14,8 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 - Currently working on CompTIA Network+
 
 ## Education
-
-<div class="row-eduslider">
+<div class="education">
+  <div class="row">
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/hau.png" alt="Holy Angel University">
       </div>
@@ -34,6 +34,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/youtube.png" alt="YouTube">
       </div>
+  </div>
 </div>
 
 ------
