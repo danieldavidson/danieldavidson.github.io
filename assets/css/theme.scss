@@ -470,12 +470,23 @@ table.inner-borders {
   }
 }
 
-.education {
-  filter: grayscale(1);
+.img-grayscale:hover {
+  filter: grayscale(0);
+  -webkit-transition: filter 0.15s linear;
+  -moz-transition: filter 0.15s linear;
+  -o-transition: filter 0.15s linear;
+  -ms-transition: filter 0.15s linear;
+  transition: filter 0.15s linear;
 }
 
-.row col-sm4 col-lg-2:hover {
-  filter: grayscale(0);
+.img-grayscale {
+  -ms-filter: -ms-grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: filter 0.15s linear;
+  -moz-transition: filter 0.15s linear;
+  -o-transition: filter 0.15s linear;
+  -ms-transition: filter 0.15s linear;
+  transition: filter 0.15s linear;
 }
 
 //********************************************************
