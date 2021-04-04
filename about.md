@@ -18,7 +18,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 <div class="education">
   <div class="row">
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/hau.png" alt="Holy Angel University">
+        <img class="img-fluid img-grayscale" src="https://www.wallace.edu/wp-content/themes/wallacecommunitycollege/img/wcc_logo.svg" alt="WCC">
       </div>
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
