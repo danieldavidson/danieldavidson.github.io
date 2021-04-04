@@ -480,6 +480,8 @@ table.inner-borders {
 }
 
 .img-grayscale {
+  background-color: transparent;
+  box-shadow: none;
   -ms-filter: -ms-grayscale(100%);
   filter: grayscale(100%);
   -webkit-transition: filter 0.15s linear;
