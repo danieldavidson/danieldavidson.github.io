@@ -13,7 +13,9 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 - Cisco Certified Network Associate (CCNA)
 - Currently working on CompTIA Network+
 
-<div class="row">
+## Education
+
+<div class="row-eduslider">
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/hau.png" alt="Holy Angel University">
       </div>

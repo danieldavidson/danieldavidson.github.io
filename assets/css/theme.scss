@@ -25,7 +25,6 @@
 //$accent-color: #52B54B;  // green
 //$accent-color: #8BC53F;  // hacker green
 $accent-color: #a4b1cd;    // light blue
-
 $font-color: #dddddd;
 //$background-color: #292929; //original
 $background-color: #151D2C;
@@ -469,6 +468,15 @@ table.inner-borders {
   p {
     margin: 0;
   }
+}
+
+.row-eduslider {
+  background-color: transparent;
+  filter: grayscale(1);
+}
+
+.row-eduslider:hover {
+  filter: grayscale(0);
 }
 
 //********************************************************
