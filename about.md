@@ -14,6 +14,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 - Currently working on CompTIA Network+
 
 ## Education
+
 <div class="education">
   <div class="row">
       <div class="col-sm-4 col-lg-2">
