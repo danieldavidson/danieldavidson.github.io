@@ -21,7 +21,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
         <img class="img-fluid img-grayscale" src="/assets/images/about/wcc.jpg" alt="WCC">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
+        <img class="img-fluid img-grayscale" src="https://tcm-sec.com/wp-content/uploads/2020/09/Transparent-Logo-2.png" alt="TCM Security">
       </div>
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udacity.png" alt="Udacity">
