@@ -20,8 +20,8 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
       <div class="col-sm-4 col-lg-2">
         <a href="https://www.wallace.edu/"><img class="img-fluid img-grayscale" src="/assets/images/about/wcc.png" alt="WCC"></a>
       </div>
-      <a href="https://www.hackthebox.eu/"><div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/about/htb.png" alt="HackTheBox"></a>
+      <div class="col-sm-4 col-lg-2">
+        <a href="https://www.hackthebox.eu/"><img class="img-fluid img-grayscale" src="/assets/images/about/htb.png" alt="HackTheBox"></a>
       </div>
       <div class="col-sm-4 col-lg-2">
         <a href="https://www.udacity.com/"><img class="img-fluid img-grayscale" src="/assets/images/about/udacity.png" alt="Udacity"></a>
