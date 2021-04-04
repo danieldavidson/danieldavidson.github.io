@@ -18,10 +18,10 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 <div class="education">
   <div class="row">
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/about/wcc.jpg" alt="WCC">
+        <img class="img-fluid img-grayscale" src="/assets/images/about/wcc.png" alt="WCC">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://tcm-sec.com/wp-content/uploads/2020/09/Transparent-Logo-2.png" alt="TCM Security">
+        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
       </div>
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udacity.png" alt="Udacity">
