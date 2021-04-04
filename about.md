@@ -18,22 +18,22 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 <div class="education">
   <div class="row">
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/about/wcc.png" alt="WCC">
+        <a href="https://www.wallace.edu/"><img class="img-fluid img-grayscale" src="/assets/images/about/wcc.png" alt="WCC"></a>
+      </div>
+      <a href="https://www.hackthebox.eu/"><div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/about/htb.png" alt="HackTheBox"></a>
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="/assets/images/about/htb.png" alt="HackTheBox">
+        <a href="https://www.udacity.com/"><img class="img-fluid img-grayscale" src="/assets/images/about/udacity.png" alt="Udacity"></a>
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udacity.png" alt="Udacity">
+        <a href="https://www.udemy.com/"><img class="img-fluid img-grayscale" src="/assets/images/about/udemy.png" alt="Udemy"></a>
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udemy-new.png" alt="Udemy">
+        <a href="https://www.freecodecamp.org/"><img class="img-fluid img-grayscale" src="/assets/images/about/freecodecamp.png" alt="Free Code Camp"></a>
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/freecodecamp.png" alt="Free Code Camp">
-      </div>
-      <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/youtube.png" alt="YouTube">
+        <a href="https://www.youtube.com/"><img class="img-fluid img-grayscale" src="/assets/images/about/youtube.png" alt="YouTube"></a>
       </div>
   </div>
 </div>
