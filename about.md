@@ -21,7 +21,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
         <img class="img-fluid img-grayscale" src="/assets/images/about/wcc.png" alt="WCC">
       </div>
       <div class="col-sm-4 col-lg-2">
-        <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
+        <img class="img-fluid img-grayscale" src="/assets/images/about/htb.png" alt="HackTheBox">
       </div>
       <div class="col-sm-4 col-lg-2">
         <img class="img-fluid img-grayscale" src="https://cefjoeii.com/assets/images/education/udacity.png" alt="Udacity">
