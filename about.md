@@ -13,6 +13,27 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 - Cisco Certified Network Associate (CCNA)
 - Currently working on CompTIA Network+
 
+<div class="row">
+      <div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/education/hau.png" alt="Holy Angel University">
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/education/harvardx.png" alt="HarvardX CS50 via edX">
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/education/udacity.png" alt="Udacity">
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/education/udemy-new.png" alt="Udemy">
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/education/freecodecamp.png" alt="Free Code Camp">
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <img class="img-fluid img-grayscale" src="/assets/images/education/youtube.png" alt="YouTube">
+      </div>
+</div>
+
 ------
 
 ## About this site
