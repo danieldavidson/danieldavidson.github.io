@@ -1,34 +1,16 @@
 ---
 layout: post
-title: "Installation"
-date: 2015-11-01 16:25:06
-description: Here you'll find out how to install this theme
+title: "Introduction"
+date: 2021-04-04 23:18:06
+description: Hello friend...
 tags: 
- - installation
+ - misc
 ---
 
-## Installation
+## Introduction
 
-If you dont't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
+Hello friend
 
-After you will have to set up your `_config.yml`
+ This blog will essentially be my own external memory source but you're more than welcome to muse my own thoughts but please be gentle and don't critize me too harshly. Here I will document my findings ranging anything from walkthroughs (whether it being a wargame, a CTF, a cert, or stuff I’m studying), researches or just listening to the sound of my own voice.
 
-## License
-
-The content of this theme is distributed and licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
-
-> This license lets others distribute, remix, tweak, and build upon your work,
-> even commercially, as long as they credit you for the original creation. This
-> is the most accommodating of licenses offered. Recommended for maximum
-> dissemination and use of licensed materials.
-
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
-
-This theme includes the following files which are the properties of their
-respective owners:
-
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+If you find this hopefully this will help you out within your own journey. That's all for now. 
