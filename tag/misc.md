@@ -1,4 +1,4 @@
 ---
 layout: tag_index
-tag: misc
+tag: Misc
 ---
