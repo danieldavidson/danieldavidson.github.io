@@ -19,7 +19,7 @@ In their website they give us the username and password for bandit0 and we have 
 **Username:** bandit0
 **Password:** bandit0 
 
-<br>
+---
 
 ## Bandit 1 
 [http://overthewire.org/wargames/bandit/bandit0.html](http://overthewire.org/wargames/bandit/bandit1.html)
@@ -38,4 +38,4 @@ That's our password. Easy!
 **Username:** bandit1
 **Password:** boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
-<br>
+---
