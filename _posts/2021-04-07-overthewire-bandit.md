@@ -18,9 +18,9 @@ Nothing too difficult here, ssh into bandit0@bandit.labs.overthewire.org.
 Type `ls` and it shows a readme file. Let's read what's inside it with cat command.
 
 ```console
-bandit0@melinda:~$ ls
+bandit0@bandit:~$ ls
 readme
-bandit0@melinda:~$ cat readme
+bandit0@bandit:~$ cat readme
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 ```
 That's our password for bandit1. Easy!
