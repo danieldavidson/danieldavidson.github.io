@@ -18,13 +18,13 @@ This first set of challenges or <span style="color:#9ADD15">*"wargames"*</span> 
 
 In their website they give us the username and password for bandit0 and we have to find the password for bandit1
 
-**Username:** bandit0
-**Password:** bandit0 
+> **Username:** bandit0
+> **Password:** bandit0 
 
 ---
 
 ## Bandit 1 
-[http://overthewire.org/wargames/bandit/bandit0.html](http://overthewire.org/wargames/bandit/bandit1.html)
+[http://overthewire.org/wargames/bandit/bandit1.html](http://overthewire.org/wargames/bandit/bandit1.html)
 
 Nothing too difficult here, ssh into bandit0@bandit.labs.overthewire.org on port 2220. 
 Type `ls` and it shows a readme file. Let's read what's inside it with cat command.
@@ -37,7 +37,7 @@ boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 ```
 That's our password. Easy!
 
-**Username:** bandit1
-**Password:** boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+> **Username:** bandit1
+> **Password:** boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 ---
