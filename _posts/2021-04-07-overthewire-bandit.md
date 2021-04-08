@@ -19,7 +19,6 @@ This first set of challenges or <span style="color:#9ADD15">*"wargames"*</span> 
 In their website they give us the username and password for bandit0 and we have to find the password for bandit1
 
 > **Username:** bandit0
->
 > **Password:** bandit0 
 
 ---
@@ -39,7 +38,6 @@ boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 That's our password. Easy!
 
 > **Username:** bandit1
->
 > **Password:** boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 ---
