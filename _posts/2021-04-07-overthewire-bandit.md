@@ -41,3 +41,41 @@ That's our password. Easy!
 > **Password:** boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 ---
+
+## Bandit 2
+[http://overthewire.org/wargames/bandit/bandit2.html](http://overthewire.org/wargames/bandit/bandit2.html)
+
+This level states the next password is saved in a file named -
+Type `ls` and it shows the file named -. Here we cannot simply type: `cat -`. It will fail.
+In order to read files that start with a dash, you have to redirect them to stdin with the < operator.   By the way stdin: Stands for "standard input."
+
+```console
+bandit1@bandit:~$ ls -l
+total 4
+-rw-r----- 1 bandit2 bandit1 33 May  7  2020 -
+bandit1@bandit:~$ cat <-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+```
+
+The goal of stdin is to work with input. This can also be redirected. For example, instead of typing the input from the keyboard, it can also be loaded from a file.
+
+For example: In this command, cat will take its input directly from the hello.txt file.
+
+```console
+bandit1@bandit:~$ cat < hello.txt
+Hello World!
+```
+
+Another solution is to use `./filename`.
+```console
+bandit1@bandit:~$ cat ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+```
+
+> **Username:** bandit2
+> **Password:** CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+** Helpful Reading Material **
+- https://unix.stackexchange.com/questions/189251/how-to-read-dash-files/189252
+
+---
