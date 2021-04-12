@@ -178,7 +178,7 @@ bandit4@bandit:~/inhere$ file ./-file00
 ./-file00: data
 ```
 
-Okay so this file is considered a *data* file type. Now that we know how to determine file types we just need to run this command on each file name right? True we could but again there's a better way. Let's pass a wildcard to the `file` command and see what happens this time. A wildcard matches any character zero or more times and is usually referenced by using the * (asterisk) character.  
+Okay so this file is considered a *data* file type. Now that we know how to determine file types we just need to run this command on each file name one by one right? True we could but again there's a better way. Let's pass a wildcard to the `file` command and see what happens this time. A wildcard matches any character zero or more times and is usually referenced by using the * (asterisk) character.  
 
 ```console
 bandit4@bandit:~/inhere$ file ./-file0*
@@ -194,7 +194,7 @@ bandit4@bandit:~/inhere$ file ./-file0*
 ./-file09: data
 ```
 
-Now you can see an odd ball sticks out amongst the rest of the files. The filename `-file07` is the only file with type *ASCII text*. Let's `cat` that file and see what we get:
+So using the wildcard on the last character of the filename `file` ran the command matching on every file in the directory. Now you can see an odd ball sticks out amongst the rest of the files. The filename `-file07` is the only file with type *ASCII text*. Let's `cat` that file and see what we get:
 
 ```console
 bandit4@bandit:~/inhere$ cat ./-file07
