@@ -75,7 +75,7 @@ CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 > **Username:** bandit2
 > **Password:** CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
-**Helpful Reading Material **
+**Helpful Reading Material**
 
 - [https://unix.stackexchange.com/questions/189251/how-to-read-dash-files/189252](https://unix.stackexchange.com/questions/189251/how-to-read-dash-files/189252)
 
