@@ -194,7 +194,7 @@ bandit4@bandit:~/inhere$ file ./-file0*
 ./-file09: data
 ```
 
-So using the wildcard on the last character of the filename `file` ran the command matching on every file in the directory. Now you can see an odd ball sticks out amongst the rest of the files. The filename `-file07` is the only file with type *ASCII text*. Let's `cat` that file and see what we get:
+So using the wildcard on the last character of the filename began matching on every file in the directory. Now you can see an odd ball sticks out amongst the rest of the files. The filename `-file07` is the only file with type *ASCII text*. Let's `cat` that file and see what we get:
 
 ```console
 bandit4@bandit:~/inhere$ cat ./-file07
