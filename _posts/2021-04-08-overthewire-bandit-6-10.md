@@ -48,7 +48,7 @@ drwxr-x--- 22 root bandit5 4096 May  7  2020 ..
 
 Okay so what we have here is a bunch of folders nested inside other folder as well as a couple of files.
 As stated we have to *find* a file that is *human-readable*, *1033 bytes in size*, and *not executable*.
-We can use the `find` command for this. So once again we always *RTFM* aka *read the manual*. We need to look for ways of filtering out the properties of the file. I found `-size`, `-type`, and `-executable` options.
+We can use the `find` command for this. So once again we always *RTFM* aka *read the f****ing manual*. We need to look for ways of filtering out the properties of the file. I found `-size`, `-type`, and `-executable` options.
 
 ```console
 -size n[cwbkMG]
@@ -119,6 +119,8 @@ bandit5@bandit:~/inhere$ find -type f -size 1033c ! -executable
 bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
+
+Yep there's our password for the next level!
 
 > **Username:** bandit6
 > **Password:** DXjZPULLxYr17uwoI01bNLQbtFemEgo7
