@@ -30,5 +30,5 @@ Below, I’ve compiled a number of resources I have come across which span topic
   - [Reverse-shell Cheat Sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
   - [MySQL Cheat Sheet](http://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)
   - [John the Ripper Hash Formats Cheat Sheet](http://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
-- [Over the Wire](https://overthewire.org/wargames/)
+- [OvertheWire](https://overthewire.org/wargames/)
 - [TCM Security Academy](https://academy.tcm-sec.com/)
