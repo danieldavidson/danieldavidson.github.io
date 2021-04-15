@@ -11,6 +11,7 @@ Welcome to another post on our series of [OverTheWire Bandit](https://overthewir
 
 ---
 
+
 ## Bandit 6
 [http://overthewire.org/wargames/bandit/bandit6.html](http://overthewire.org/wargames/bandit/bandit6.html)
 
@@ -127,6 +128,7 @@ Yep there's our password for the next level!
 
 ---
 
+
 ## Bandit 7
 [http://overthewire.org/wargames/bandit/bandit7.html](http://overthewire.org/wargames/bandit/bandit7.html)
 
@@ -161,6 +163,7 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 ---
 
+
 ## Bandit 8
 [http://overthewire.org/wargames/bandit/bandit8.html](http://overthewire.org/wargames/bandit/bandit8.html)
 
@@ -180,6 +183,7 @@ Think of `grep` as the search or find feature in any text editor you've used bef
 > **Password:** cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
 ---
+
 
 ## Bandit 9
 [http://overthewire.org/wargames/bandit/bandit9.html](http://overthewire.org/wargames/bandit/bandit9.html)
@@ -221,12 +225,13 @@ Also important to note is if you don’t sort the lines first, `uniq` has troubl
 
 ---
 
+
 ## Bandit 10
 [http://overthewire.org/wargames/bandit/bandit10.html](http://overthewire.org/wargames/bandit/bandit10.html)
 
 The password for the next level is stored in the file **data.txt** in one of the few human-readable strings, preceded by several *‘=’* characters.
 
-According to the hint, the file contains both strings and binary data which can make it difficult to read. So we use to the `strings` to sort out plain text from the binary garble and once again pipe it to `grep` to output only the lines preceded by several equal signs `=`
+According to the hint, the file contains both strings and binary data which can make it difficult to read. So we use to the `strings` command to sort out plain text from the binary garble and once again pipe it to `grep` to output only the lines preceded by several equal signs `=`
 
 ```console
 bandit9@bandit:~$ strings data.txt | grep ====
