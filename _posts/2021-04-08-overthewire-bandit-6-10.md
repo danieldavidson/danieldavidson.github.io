@@ -176,7 +176,7 @@ millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ```
 Think of `grep` as the search or find feature in any text editor you've used before except much more powerful!
 
-> **Username:** bandit7
+> **Username:** bandit8
 > **Password:** cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
 ---
@@ -216,7 +216,27 @@ sort data.txt | uniq -u
 
 Also important to note is if you don’t sort the lines first, `uniq` has trouble matching unique values unless the lines are adjacent and doesn’t care if the string will show again later.
 
-> **Username:** bandit7
-> **Password:** cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+> **Username:** bandit9
+> **Password:** UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+---
+
+## Bandit 10
+[http://overthewire.org/wargames/bandit/bandit10.html](http://overthewire.org/wargames/bandit/bandit10.html)
+
+The password for the next level is stored in the file **data.txt** in one of the few human-readable strings, preceded by several *‘=’* characters.
+
+According to the hint, the file contains both strings and binary data which can make it difficult to read. So we use to the `strings` to sort out plain text from the binary garble and once again pipe it to `grep` to output only the lines preceded by several equal signs `=`
+
+```console
+bandit9@bandit:~$ strings data.txt | grep ====
+========== the*2i"4
+========== password
+Z)========== is
+&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+```
+
+> **Username:** bandit10
+> **Password:** truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 
 ---
