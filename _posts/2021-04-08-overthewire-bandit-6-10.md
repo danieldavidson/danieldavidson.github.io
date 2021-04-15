@@ -16,9 +16,9 @@ Welcome to another post on our series of [OverTheWire Bandit](https://overthewir
 
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
-            *human-readable*
-            *1033 bytes in size*
-            *not executable*
+​					*human-readable*
+​					*1033 bytes in size*
+​					*not executable*
 
 To start lets `cd` into the inhere folder and run `ls` to see the files and folders.
 
@@ -124,5 +124,39 @@ Yep there's our password for the next level!
 
 > **Username:** bandit6
 > **Password:** DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+---
+
+## Bandit 7
+[http://overthewire.org/wargames/bandit/bandit7.html](http://overthewire.org/wargames/bandit/bandit7.html)
+
+The password for the next level is stored somewhere on the server and has all of the following properties:
+
+​					*owned by user bandit7*
+​					*owned by group bandit6*
+​					*33 bytes in size*
+
+Just like the previous level I used the `find` command below from root folder `/` to find a file owned by user bandit7, owned by group bandit6 and 33 bytes of size.
+
+```console
+bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+```
+
+**What does each parameter mean?**
+- `-user` the owner of the file.
+- `-group` the group owner of the file.
+- `-size` the size of the file.
+- `2>/dev/null` redirects error messages to null so that they do not show on stdout.
+
+So we `cat` that file:
+
+```console
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+```
+
+> **Username:** bandit7
+> **Password:** HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 ---
