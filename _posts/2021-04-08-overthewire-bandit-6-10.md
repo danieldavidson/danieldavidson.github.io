@@ -9,9 +9,11 @@ tags:
 
 Welcome to another post on our series of [OverTheWire Bandit](https://overthewire.org/wargames/bandit/)! This post covers my walkthrough of levels 6-10. If you would like to jump to specific level then each level with be accompanied with the username and password. I will be appending consecutive levels as I have to time to post. Enjoy!
 
+**Table of Contents**
+
+[TOC]
+
 ---
-
-
 
 ## Bandit 6
 
@@ -130,8 +132,6 @@ Yep there's our password for the next level!
 
 ---
 
-
-
 ## Bandit 7
 
 [http://overthewire.org/wargames/bandit/bandit7.html](http://overthewire.org/wargames/bandit/bandit7.html)
@@ -167,8 +167,6 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 ---
 
-
-
 ## Bandit 8
 
 [http://overthewire.org/wargames/bandit/bandit8.html](http://overthewire.org/wargames/bandit/bandit8.html)
@@ -189,8 +187,6 @@ Think of `grep` as the search or find feature in any text editor you've used bef
 > **Password:** cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
 ---
-
-
 
 ## Bandit 9
 
@@ -232,8 +228,6 @@ Also important to note is if you don’t sort the lines first, `uniq` has troubl
 > **Password:** UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 ---
-
-
 
 ## Bandit 10
 
