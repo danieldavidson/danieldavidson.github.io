@@ -12,7 +12,9 @@ Welcome to another post on our series of [OverTheWire Bandit](https://overthewir
 ---
 
 
+
 ## Bandit 6
+
 [http://overthewire.org/wargames/bandit/bandit6.html](http://overthewire.org/wargames/bandit/bandit6.html)
 
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
@@ -129,7 +131,9 @@ Yep there's our password for the next level!
 ---
 
 
+
 ## Bandit 7
+
 [http://overthewire.org/wargames/bandit/bandit7.html](http://overthewire.org/wargames/bandit/bandit7.html)
 
 The password for the next level is stored somewhere on the server and has all of the following properties:
@@ -164,7 +168,9 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ---
 
 
+
 ## Bandit 8
+
 [http://overthewire.org/wargames/bandit/bandit8.html](http://overthewire.org/wargames/bandit/bandit8.html)
 
 The password for the next level is stored in the file **data.txt** next to the word **millionth**
@@ -185,7 +191,9 @@ Think of `grep` as the search or find feature in any text editor you've used bef
 ---
 
 
+
 ## Bandit 9
+
 [http://overthewire.org/wargames/bandit/bandit9.html](http://overthewire.org/wargames/bandit/bandit9.html)
 
 The password for the next level is stored in the file **data.txt** and is the only line of text that occurs only once
@@ -226,7 +234,9 @@ Also important to note is if you don’t sort the lines first, `uniq` has troubl
 ---
 
 
+
 ## Bandit 10
+
 [http://overthewire.org/wargames/bandit/bandit10.html](http://overthewire.org/wargames/bandit/bandit10.html)
 
 The password for the next level is stored in the file **data.txt** in one of the few human-readable strings, preceded by several *‘=’* characters.
