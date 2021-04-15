@@ -160,3 +160,63 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 > **Password:** HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 ---
+
+## Bandit 8
+[http://overthewire.org/wargames/bandit/bandit8.html](http://overthewire.org/wargames/bandit/bandit8.html)
+
+The password for the next level is stored in the file **data.txt** next to the word **millionth**
+
+This one is fairly easy. All we have to do `cat data.txt` and then just pipe it `|` to `grep`
+
+```console
+bandit7@bandit:~$ ls
+data.txt
+bandit7@bandit:~$ cat data.txt | grep millionth
+millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+```
+Think of `grep` as the search or find feature in any text editor you've used before except much more powerful!
+
+> **Username:** bandit7
+> **Password:** cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+---
+
+## Bandit 9
+[http://overthewire.org/wargames/bandit/bandit9.html](http://overthewire.org/wargames/bandit/bandit9.html)
+
+The password for the next level is stored in the file **data.txt** and is the only line of text that occurs only once
+
+More piping! Here you might need to reference the `man` pages on two tools `uniq` and `sort`
+
+First let’s sort the strings, get the count of how many times they appear in data.txt and sort them again, so the string with appearance of 1 is on top. 
+
+```console
+bandit8@bandit:~$ cat data.txt | sort | uniq -c | sort
+      1 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+     10 07KC3ukwX7kswl8Le9ebb3H3sOoNTsR2
+     10 0efnqHY1ZTNRu4LsDX4D73DsxIQq7RuJ
+     10 0N65ZPpNGkUJePzFxctCRZRXVrCbUGfm
+     10 0Xo6DLyK5izRqEtBA7sW2SRmlAixWYSg
+```
+
+By the way `-c` tells us how many time the values on adjacent lines have occurred
+
+Another way is to pipe it one more time to grep with -v 10 which will invert the match inturn only revealing the string we want, but you already figured out how many times other strings appear by that point ;)
+
+```console
+bandit8@bandit:~$ cat data.txt | sort | uniq -c | sort | grep -v 10
+      1 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+```
+
+A much cleaner and quicker solution would be to use the command below:
+
+```console
+sort data.txt | uniq -u
+```
+
+Also important to note is if you don’t sort the lines first, `uniq` has trouble matching unique values unless the lines are adjacent and doesn’t care if the string will show again later.
+
+> **Username:** bandit7
+> **Password:** cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+---
