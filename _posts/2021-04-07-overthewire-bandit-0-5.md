@@ -3,6 +3,7 @@ layout: post
 title: "OverTheWire: Bandit 0-5"
 date: 2021-04-04 23:18:06
 description: OverTheWire - Bandit Walkthrough
+toc: false
 tags:
  - OverTheWire-Bandit
 ---
