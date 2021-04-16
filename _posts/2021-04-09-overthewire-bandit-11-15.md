@@ -250,8 +250,6 @@ The password for the next level can be retrieved by submitting the password of t
 
 For the sake of being brief within this post I would suggest learning about a tool called **netcat** aka `nc`. Essentially **netcat** is a utility capable of establishing a TCP or UDP connection between two computers, meaning it can write and read through an open port. 
 
-For all you Network+ guys think client-server model. The beauty of `nc` is that it is capable being both the client and the server aka listener and sender. 
-
 ```console
 bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
@@ -259,6 +257,10 @@ bandit14@bandit:~$ cat /etc/bandit_pass/bandit14 | nc localhost 30000
 Correct!
 BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
+
+For all you Network+ guys think client-server model. The beauty of `nc` is that it is capable being both the client and the server aka listener and sender. 
+
+`nc <options> <host> <port>`
 
 > **Username:** bandit15
 > **Password:** BfMYroe26WYalil77FoDi9qh59eK5xNr
