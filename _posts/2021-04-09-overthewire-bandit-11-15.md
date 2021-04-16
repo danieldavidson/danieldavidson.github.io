@@ -258,7 +258,7 @@ Correct!
 BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
 
-For all you Network+ guys think client-server model. The beauty of `ncat` is that it is capable being both the client and the server aka listener and sender. 
+For all you Network+ guys think client-server model. The beauty of `ncat` is that it is capable being both the client and the server aka listener and sender. This is a great tool for sysadmins, network engineers, and hackers.
 
 `nc <options> <host> <port>`
 
