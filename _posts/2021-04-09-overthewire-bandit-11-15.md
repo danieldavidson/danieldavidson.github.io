@@ -89,7 +89,7 @@ The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 [http://overthewire.org/wargames/bandit/bandit13.html](http://overthewire.org/wargames/bandit/bandit13.html)
 
-First we need to make a temporary directory as suggested to unzip the files. Then copy `data-orginal.txt` and convert the ASCII text to binary (basically hexdump the content), for that we'll be using [`xxd`](http://linuxcommand.org/man_pages/xxd1.html).
+First we need to make a temporary directory as suggested to unzip the files. Then copy `data-orginal.txt` and convert the ASCII text to binary (basically hexdump the content), for that we'll be using `xxd`.
 
 ```console
 bandit12@bandit:~$ mkdir /tmp/pyr0
