@@ -70,11 +70,15 @@ This means that it was encrypted with the ROT13 algorithm. In order to decrypt i
 **Output**	NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
 
  A useful tool to use would be tr. This tool can translate, squeeze, and/or delete characters from standard input.
- 
+
 ```console
 bandit11@bandit:~$ cat data.txt | tr [:alpha:] N-ZA-Mn-za-m
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
+
+**Helpful Reading Material**
+
+- [ROT13 - Wikipedia](https://en.wikipedia.org/wiki/Rot13)
 
 > **Username:** bandit12
 > **Password:** 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
@@ -84,3 +88,10 @@ The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ## Bandit 13
 
 [http://overthewire.org/wargames/bandit/bandit13.html](http://overthewire.org/wargames/bandit/bandit13.html)
+
+
+
+> **Username:** bandit13
+> **Password:** 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+---
