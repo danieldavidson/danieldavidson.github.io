@@ -16,7 +16,7 @@ Welcome to another post on our series of [OverTheWire Bandit](https://overthewir
 
 [http://overthewire.org/wargames/bandit/bandit11.html](http://overthewire.org/wargames/bandit/bandit11.html)
 
-The password for the next level is stored in the file **data.txt**, which contains base64 encoded data
+The password for the next level is stored in the file **data-orginal.txt**, which contains base64 encoded data
 
 Lucky for us there is a utility called base64. Let see what the built-in help tells us.
 
@@ -46,10 +46,10 @@ Full documentation at: <http://www.gnu.org/software/coreutils/base64>
 or available locally via: info '(coreutils) base64 invocation'
 ```
 
-Seeing as the data.txt file is encoded the `-d` or `--decode` parameter looks like what we need.
+Seeing as the data-orginal.txt file is encoded the `-d` or `--decode` parameter looks like what we need.
 
 ```console
-bandit10@bandit:~$ base64 --decode data.txt
+bandit10@bandit:~$ base64 --decode data-orginal.txt
 The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 ```
 
@@ -62,7 +62,7 @@ The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 
 [http://overthewire.org/wargames/bandit/bandit12.html](http://overthewire.org/wargames/bandit/bandit12.html)
 
-The password for the next level is stored in the file **data.txt**, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+The password for the next level is stored in the file **data-orginal.txt**, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 
 This means that it was encrypted with the ROT13 algorithm. In order to decrypt it, we have to replace every letter by the letter 13 positions ahead thus abc..xyz becomes:
 
@@ -72,7 +72,7 @@ This means that it was encrypted with the ROT13 algorithm. In order to decrypt i
  A useful tool to use would be tr. This tool can translate, squeeze, and/or delete characters from standard input.
 
 ```console
-bandit11@bandit:~$ cat data.txt | tr A-Za-z N-ZA-Mn-za-m
+bandit11@bandit:~$ cat data-orginal.txt | tr A-Za-z N-ZA-Mn-za-m
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
 
@@ -89,9 +89,145 @@ The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 [http://overthewire.org/wargames/bandit/bandit13.html](http://overthewire.org/wargames/bandit/bandit13.html)
 
+First we need to make a temporary directory as suggested to unzip the files. Then copy `data-orginal.txt` and convert the ASCII text to binary (basically hexdump the content), for that we'll be using [`xxd`](http://linuxcommand.org/man_pages/xxd1.html).
 
+```console
+bandit12@bandit:~$ mkdir /tmp/pyr0
+bandit12@bandit:~$ cp data.txt /tmp/pyr0/data-orginal.txt
+bandit12@bandit:~$ cd /tmp/pyr0
+bandit12@bandit:/tmp/[pyr0$ ls
+data-orginal.txt
+bandit12@bandit:/tmp/pyr0$ xxd -r data-orginal.txt > data.bin
+```
+
+Next we want to figure out what the properties of the file are, for that we'll use `file`.
+
+```console
+bandit12@bandit:/tmp/pyr0$ file data.bin
+data.bin: gzip compressed data, was "data2.bin", from Unix, last modified: Fri Nov 14 10:32:20 2014, max compression
+```
+
+Awesome! Let's decompress it.
+
+```console
+bandit12@bandit:/tmp/pyr0$ gzip -d data.bin
+gzip: data.bin: unknown suffix -- ignored
+```
+
+Uh oh! `gzip` expects a proper extension, let's rename it.
+
+```console
+bandit12@bandit:/tmp/pyr0$ mv data.bin data.gz
+bandit12@bandit:/tmp/pyr0$ gzip -d data.gz
+bandit12@bandit:/tmp/pyr0$ ls
+data data-orginal.txt
+```
+
+Let's inspect it again with `file` like we did before.
+
+```console
+bandit12@bandit:/tmp/pyr0$ file data
+data: bzip2 compressed data, block size = 900k
+```
+
+Looks like this one is compressed via bzip. No worries we'll just do the same as before except we need to rename the file extension to `.bz2`.
+
+```console
+bandit12@bandit:/tmp/pyr0$ mv data data.bz2
+bandit12@bandit:/tmp/pyr0$ bzip2 -d data.bz2
+bandit12@bandit:/tmp/pyr0$ ls
+data data-orginal.txt
+bandit12@bandit:/tmp/pyr0$ file data
+data: gzip compressed data, was "data4.bin", from Unix, last modified: Fri Nov 14 10:32:20 2014, max compression
+```
+
+Only a few more times...
+
+```console
+bandit12@bandit:/tmp/pyr0$ mv data data.gz
+bandit12@bandit:/tmp/pyr0$ gzip -d data.gz
+bandit12@bandit:/tmp/pyr0$ ls
+data data-orginal.txt
+bandit12@bandit:/tmp/pyr0$ file data
+data: POSIX tar archive (GNU)
+```
+
+*Meanwhile...*
+![](https://i.imgur.com/0xjkDHk.gif)
+
+Did you watch it until the end? Okay sorry let's get back to it...
+
+```console
+bandit12@bandit:/tmp/pyr0$ mv data data.gz
+bandit12@bandit:/tmp/pyr0$ gzip -d data.gz
+bandit12@bandit:/tmp/pyr0$ ls
+data data-orginal.txt
+bandit12@bandit:/tmp/pyr0$ file data
+data: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/pyr0$ mv data data.tar
+bandit12@bandit:/tmp/pyr0$ tar -xvf data.tar
+data5.bin
+bandit12@bandit:/tmp/pyr0$ file data5.bin
+data5.bin: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/pyr0$ mv data5.bin data5.tar
+bandit12@bandit:/tmp/pyr0$ tar -xf data5.tar
+bandit12@bandit:/tmp/pyr0$ tar -xf data5.tar
+bandit12@bandit:/tmp/pyr0$ mv data5.bin data5.tarl^C
+bandit12@bandit:/tmp/pyr0$ ls
+data-orginal.txt data5.tar data6.bin
+bandit12@bandit:/tmp/pyr0$ rm data5.tar
+bandit12@bandit:/tmp/pyr0$ file data6.bin
+data6.bin: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/pyr0$ mv data6.bin data6.bz2
+bandit12@bandit:/tmp/pyr0$ bzip2 -d data6.bz2
+bandit12@bandit:/tmp/pyr0$ ls
+data-orginal.txt data6
+bandit12@bandit:/tmp/pyr0$ file data6
+data6: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/pyr0$ mv data6 data6.tar
+bandit12@bandit:/tmp/pyr0$ tar -xf data6.tar
+bandit12@bandit:/tmp/pyr0$ ls
+data-orginal.txt data6.tar data8.bin
+bandit12@bandit:/tmp/pyr0$ rm data6.tar
+```
+
+Is this ever going to end?!
+![](https://i.imgur.com/1QP7GLl.gif)
+
+```console
+bandit12@bandit:/tmp/pyr0$ file data8.bin
+data8.bin: gzip compressed data, was "data9.bin", from Unix, last modified: Fri Nov 14 10:32:20 2014, max compression
+bandit12@bandit:/tmp/pyr0$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/pyr0$ gzip -d data8.gz
+bandit12@bandit:/tmp/pyr0$ ls
+data-orginal.txt data8
+bandit12@bandit:/tmp/pyr0$ file data8
+data8: ASCII text
+bandit12@bandit:/tmp/pyr0$ cat data8
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+```
+
+Got it!
 
 > **Username:** bandit13
-> **Password:** 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+> **Password:** 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+---
+
+## Bandit 14
+
+[http://overthewire.org/wargames/bandit/bandit14.html](http://overthewire.org/wargames/bandit/bandit14.html)
+
+> **Username:** bandit14
+> **Password:** 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+---
+
+## Bandit 15
+
+[http://overthewire.org/wargames/bandit/bandit15.html](http://overthewire.org/wargames/bandit/bandit15.html)
+
+> **Username:** bandit14
+> **Password:** 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 ---
