@@ -72,7 +72,7 @@ This means that it was encrypted with the ROT13 algorithm. In order to decrypt i
  A useful tool to use would be tr. This tool can translate, squeeze, and/or delete characters from standard input.
 
 ```console
-bandit11@bandit:~$ cat data.txt | tr [:alpha:] N-ZA-Mn-za-m
+bandit11@bandit:~$ cat data.txt | tr A-Za-z N-ZA-Mn-za-m
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
 
