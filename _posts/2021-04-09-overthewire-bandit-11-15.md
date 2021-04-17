@@ -237,8 +237,15 @@ bandit14@bandit:~$
 Here's a brief diagram explaining how SSH Private/Public keys work:
 ![img](/assets/images/sshkey_example.png)
 
+Now we just have to `cat` the password file for the current level like so.
+
+```console
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+```
+
 > **Username:** bandit14
-> **Password:** No password - Uses sshkey.private file
+> **Password:** 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e  (Also uses sshkey.private file)
 
 ---
 

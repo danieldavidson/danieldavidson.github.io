@@ -236,6 +236,13 @@ Yep we we're correct! We got a private key that can be used for authentication t
 
 *Note: Just to show you that the other SSL port 31518 just simply repeats back whatever we input.*
 
+So now all we have to do is create a folder so we can store this ssh key somewhere.
+
+```console
+bandit16@bandit:~$ mkdir -p /tmp/me_bandit16-17
+```
+command and then copied the key and saved it to a file named bandit17.key then changed the file permissions with the "chmod 600 bandit17.key" command. I ran "ssh -i bandit17.key bandit17@localhost" and I was able to log into the bandit17�s profile
+
 ```console
 bandit16@bandit:~$ ncat --ssl localhost 31518
 cluFn7wTiGryunymYOu4RcffSxQluehd
@@ -243,6 +250,6 @@ cluFn7wTiGryunymYOu4RcffSxQluehd
 ```
 
 > > **Username:** bandit17
-> **Password:** 
+> **Password:** sshkey.private
 
 ---
