@@ -182,8 +182,8 @@ Nmap done: 1 IP address (1 host up) scanned in 88.08 seconds
 ```
 
 Aha! This is a lot better because we've limited the list of suspect ports further to:
-- **31518 which is running SSL/echo**
-- **31790 which is running SSL/unknown**
+- **31518** which is running SSL/echo
+- **31790** which is running SSL/unknown
 
 That said we still have 50/50 chance between these two ports or do we...
 
