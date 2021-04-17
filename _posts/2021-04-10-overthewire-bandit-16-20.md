@@ -326,7 +326,9 @@ Hmm, once you ssh into the server you just log out. We need to do 2 things:
 Let's start by our first objective. You might've noticed that some hidden files exist in the home directory, like `.bashrc` or `.bash_profile`. We need to find a way to read their content. SSH is the only command we used, so let's check the help pages, maybe there's a way to run a command upon executing?
 
 `ssh --help` didn't reveal much info, let's try the man pages. `-t` looks promising.
+We can use `t` to excute arbitray commands on the system.
 
+Let's first use `ls -al` to see if the file is in the users home directory.
 ```console
 bandit17@bandit:~$ ssh bandit18@localhost -t "ls -al"
 This is the OverTheWire game server. More information on http://www.overthewire.org/wargames
@@ -342,6 +344,11 @@ drwxr-xr-x 172 root   root   4096 Jul 10 14:12 ..
 -rw-r--r--  1 root   root   675 Apr 9 2014 .profile
 -rw-r-----  1 bandit19 bandit18  33 Nov 14 2014 readme
 Connection to bandit.labs.overthewire.org closed.
+```
+
+Perfect! Looks like it is. So now lets `cat` the `readme` file to stdout.
+
+```console
 bandit17@bandit:~$ ssh bandit18@localhost -t "cat readme"
 This is the OverTheWire game server. More information on http://www.overthewire.org/wargames
 Please note that wargame usernames are no longer level<X>, but wargamename<X>
@@ -350,6 +357,11 @@ Note: at this moment, blacksun is not available.
 bandit18@bandit.labs.overthewire.org's password:
 IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 Connection to bandit.labs.overthewire.org closed.
+```
+
+Another possible solution is to just call a shell directly via `sh`.
+
+```console
 bandit17@bandit:~$ ssh bandit18@localhost -t "sh"
 This is the OverTheWire game server. More information on http://www.overthewire.org/wargames
 Please note that wargame usernames are no longer level<X>, but wargamename<X>
