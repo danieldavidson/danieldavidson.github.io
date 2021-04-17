@@ -137,3 +137,47 @@ Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
 > **Password:** Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
 
 ---
+
+## Bandit 23
+
+[http://overthewire.org/wargames/bandit/bandit23.html](http://overthewire.org/wargames/bandit/bandit23.html)
+
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
+
+**NOTE**: Looking at shell scripts written by other people is a very useful skill. The script for this level is intentionally made easy to read. If you are having problems understanding what it does, try executing it to see the debug information it prints.
+
+Same steps as before, let's see what the cronjob does:
+
+```console
+bandit22@bandit:~$ cat /etc/cron.d/cronjob_bandit23
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+```
+
+Okay so lets see what the script `/usr/bin/cronjob_bandit23.sh` does:
+
+```console
+bandit22@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit23.sh
+#!/bin/bash
+myname=$(whoami)
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
+cat /etc/bandit_pass/$myname > /tmp/$mytarget
+```
+
+Okay so this script is being execute as bandit23 from the cronjob which means when the script executes `whoami` it is parsing `bandit23` as the value for the variable `$myname`. 
+
+Then we need to get the MD5 encoding of $target (which is "I am user bandit23"), then read the content of `/tmp/<MD5output>`:
+
+```console
+bandit22@bandit:/etc/cron.d$ md5sum <<< $(echo I am user bandit23)
+8ca319486bfbbc3663ea0fbe81326349 -
+bandit22@bandit:/etc/cron.d$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+bandit22@bandit:/etc/cron.d$
+```
+
+> **Username:** bandit23
+> **Password:** jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+---
