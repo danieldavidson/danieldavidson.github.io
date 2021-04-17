@@ -117,6 +117,8 @@ closed
 
 [http://overthewire.org/wargames/bandit/bandit17.html](http://overthewire.org/wargames/bandit/bandit17.html)
 
+The credentials for the next level can be retrieved by submitting the password of the current level to **a port on localhost in the range 31000 to 32000**. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
+
 If you remember the last level they gave us the port but this time they want us to find the port in the range of 31000-32000. Here is a simple way we can check to see if a port/service is open on a system using one of my favorite enumeration tools. Let me introduce you to `nmap`.
 
 ```console
@@ -270,7 +272,42 @@ bandit17@bandit:~$ cat /etc/bandit_pass/bandit17
 xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
 ```
 
-> > **Username:** bandit17
+> **Username:** bandit17
 > **Password:** xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+---
+
+## Bandit 18
+
+[http://overthewire.org/wargames/bandit/bandit18.html](http://overthewire.org/wargames/bandit/bandit18.html)
+
+There are 2 files in the homedirectory: **passwords.old** and **passwords.new**. The password for the next level is in **passwords.new** and is the only line that has been changed between **passwords.old** and **passwords.new**
+
+**NOTE: if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19**
+
+Pretty straight forward, we just have to find the differences between the two files. To do this perhaps `diff` seems like a sensible option.
+
+```console
+bandit17@bandit:~$ diff passwords.old passwords.new
+42c42
+< w0Yfolrc5bwjS4qw5mq1nnQi6mF03bii
+---
+> kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+```
+
+Done! The password is the one on the right `kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd`.
+
+I always advocate for different ways of doing things because you never know the `diff` tool may not be installed or available. So let's try doing it with `grep`.
+
+```console
+bandit17@bandit:~$ grep -xvFf passwords.old passwords.new
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+```
+
+Nice! Same result as before. Consider the parameters used in this command a little homework.
+`man grep`
+
+> **Username:** bandit18
+> **Password:** kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 
 ---
