@@ -238,7 +238,10 @@ bandit23@bandit:/tmp/bd2324$ cp myscript2324.sh /var/spool/bandit24/
 
 Now we wait for cron to execute the script. 
 
-**Pro TIP**: If you don't want to type `ls` a gazillion times waiting for the file to appear use `watch -n 1 -x ls /tmp/bd2324`. Watch essentially repeats the `ls` command at our directory every 1 second. 
+**Pro TIP**: If you don't want to type `ls` a gazillion times waiting for the file to appear use the following:
+`watch -n 1 -x ls /tmp/bd2324`
+
+Watch essentially repeats the `ls` command at our directory every 1 second. 
 
 ```console
 bandit23@bandit:/tmp/bd2324$ ls -al /var/spool/bandit24/
