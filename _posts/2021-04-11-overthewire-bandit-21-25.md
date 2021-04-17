@@ -46,7 +46,7 @@ Okay now let's put this all together.
 tmux new -s mysession
 ```
 
-**2. Make a network listener using (`nc`) on a port of our choice in a *tmux pane*.**
+**2. Make a network listener on a port of our choice in a *tmux pane*.**
 
 ```console
 bandit20@bandit:~$ nc -l -p 4444
@@ -61,7 +61,7 @@ Now to create a pane
 bandit20@bandit:~$ ./suconnect 4444
 ```
 
-**4. Switch back to our our pane running `nc` and send the password.**
+**4. Switch back to our our pane running the listener and send the password.**
 
 Switch back to our other pane
 ![](/assets/images/posts/tmux-switch-panes.png)
