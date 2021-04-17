@@ -110,7 +110,6 @@ Very easy level, you'll need to read about cron, but for now first paragraph of 
 
 First, let's see which cron job is being executed for bandit 22:
 
-
 ```console
 bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
 @reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
