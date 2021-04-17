@@ -235,7 +235,7 @@ bandit14@bandit:~$
 ```
 
 Here's a brief diagram explaining how SSH Private/Public keys work:
-![img](/assets/images/sshkey_example.png)
+![img](/assets/images/posts/sshkey_example.png)
 
 Now we just have to `cat` the password file for the current level like so.
 
