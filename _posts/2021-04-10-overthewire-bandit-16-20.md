@@ -187,7 +187,7 @@ Aha! This is a lot better because we've limited the list of suspect ports furthe
 
 That said we still have 50/50 chance between these two ports or do we...
 
-![insert gif]()
+![](https://media0.giphy.com/media/VhRK9ZABipMLRy7JM6/giphy.gif)
 
 Notice below the scan...nmap gives a little more tid bit of information by showing what looks like a returned string value of "Wrong! Please enter the correct current password":
 ```console
