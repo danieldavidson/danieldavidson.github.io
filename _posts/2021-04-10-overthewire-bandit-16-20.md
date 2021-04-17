@@ -253,9 +253,9 @@ bandit16@bandit:~$ nano /tmp/me_bandit16-17/sshkey.private
 ```
 We also have to change the file permissions of the key file: `chmod 600 sshkey.private`
 
-Now we pipe the key to ssh to login to `bandit17@localhost`.
+Now we pipe the key to ssh to login to `bandit17@localhost`
 
-````console
+```console
 bandit16@bandit:~$ ssh -i sshkey.private bandit17@localhost
 The authenticity of host 'localhost (127.0.0.1)' can't be established.
 ECDSA key fingerprint is SHA256:98UL0ZWr85496EtCRkKlo20X3OPnyPSB5tB5RPbhczc.
