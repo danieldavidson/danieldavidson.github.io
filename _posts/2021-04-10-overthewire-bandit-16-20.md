@@ -311,3 +311,98 @@ Nice! Same result as before. Consider the parameters used in this command a litt
 > **Password:** kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 
 ---
+
+## Bandit 19
+
+[http://overthewire.org/wargames/bandit/bandit19.html](http://overthewire.org/wargames/bandit/bandit19.html)
+
+The password for the next level is stored in a file **readme** in the homedirectory. Unfortunately, someone has modified **.bashrc** to log you out when you log in with SSH.
+
+Hmm, once you ssh into the server you just log out. We need to do 2 things:
+
+- Figure out why we log out once connected.
+- Find a way to stay connected.
+
+Let's start by our first objective. You might've noticed that some hidden files exist in the home directory, like `.bashrc` or `.bash_profile`. We need to find a way to read their content. SSH is the only command we used, so let's check the help pages, maybe there's a way to run a command upon executing?
+
+`ssh --help` didn't reveal much info, let's try the man pages. `-t` looks promising.
+
+```console
+bandit17@bandit:~$ ssh bandit18@localhost -t "ls -al"
+This is the OverTheWire game server. More information on http://www.overthewire.org/wargames
+Please note that wargame usernames are no longer level<X>, but wargamename<X>
+e.g. vortex4, semtex2, ...
+Note: at this moment, blacksun is not available.
+bandit18@bandit.labs.overthewire.org's password:
+total 24
+drwxr-xr-x  2 root   root   4096 Nov 14 2014 .
+drwxr-xr-x 172 root   root   4096 Jul 10 14:12 ..
+-rw-r--r--  1 root   root   220 Apr 9 2014 .bash_logout
+-rw-r-----  1 bandit19 bandit18 3660 Nov 14 2014 .bashrc
+-rw-r--r--  1 root   root   675 Apr 9 2014 .profile
+-rw-r-----  1 bandit19 bandit18  33 Nov 14 2014 readme
+Connection to bandit.labs.overthewire.org closed.
+bandit17@bandit:~$ ssh bandit18@localhost -t "cat readme"
+This is the OverTheWire game server. More information on http://www.overthewire.org/wargames
+Please note that wargame usernames are no longer level<X>, but wargamename<X>
+e.g. vortex4, semtex2, ...
+Note: at this moment, blacksun is not available.
+bandit18@bandit.labs.overthewire.org's password:
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+Connection to bandit.labs.overthewire.org closed.
+bandit17@bandit:~$ ssh bandit18@localhost -t "sh"
+This is the OverTheWire game server. More information on http://www.overthewire.org/wargames
+Please note that wargame usernames are no longer level<X>, but wargamename<X>
+e.g. vortex4, semtex2, ...
+Note: at this moment, blacksun is not available.
+bandit18@bandit.labs.overthewire.org's password:
+$ ls
+readme
+$ cat readme
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+```
+
+So basically, we have two solutions:
+
+- `ssh bandit18@localhost -t "cat readme" `
+
+Or directly calling `sh` and have the regular interactive shell.
+
+- `ssh bandit18@localhost -t "sh"`
+
+> **Username:** bandit19
+> **Password:** IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+---
+
+## Bandit 20
+
+[http://overthewire.org/wargames/bandit/bandit20.html](http://overthewire.org/wargames/bandit/bandit20.html)
+
+To gain access to the next level, you should use the `setuid` binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place **(/etc/bandit_pass)**, after you have used the setuid binary.
+
+In this challenge, we'll get introduced to a new concept, which is [setuid](https://en.wikipedia.org/wiki/Setuid). Any file/directory in Linux has read, write, execute (if not directory) permissions for owner, group or other. You can read more about Linux file permissions [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
+
+**So why is this a big deal?**
+
+Well a misconfigured setuid program could be disastrous as it could give allow privilege escalation from limited account to root access. [Root-me.org](https://www.root-me.org/en/Challenges/App-Script) has a few great examples on how to exploit it. Another interesting read is [nmap's interactive mode](https://gist.github.com/dergachev/7916152).
+
+Alright, let's see what's the setuid program does.
+
+```console
+bandit19@bandit:~$ ls -l
+total 8
+-rwsr-x--- 1 bandit20 bandit19 7296 May  7  2020 bandit20-do
+bandit19@bandit:~$ ./bandit20-do
+Run a command as another user.
+  Example: ./bandit20-do id
+bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+```
+
+So in short this was a misconfigured `setuid` binary which allowed us to elevate and execute commands as the user bandit20. In turn, the file `/etc/bandit_pass/bandit20`where the password is stored  is owned by user bandit20 so we have full rights to read it via `cat`.
+
+> **Username:** bandit20
+> **Password:** GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+---
