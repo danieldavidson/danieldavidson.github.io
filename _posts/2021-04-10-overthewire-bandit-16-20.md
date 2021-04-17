@@ -233,7 +233,7 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
 ```
 
-Yep we we're correct! We got a private key that can be used for authentication to the next level.
+Yep we were correct! We got a private key that can be used for authentication to the next level.
 
 *Note: Just to show you that the other SSL port 31518 just simply repeats back whatever we input.*
 
