@@ -86,6 +86,6 @@ Here's a demo in action:
 ![](/assets/images/posts/bandit21.gif)
 
 > **Username:** bandit21
-> **Password:** 
+> **Password:** gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
 
 ---
