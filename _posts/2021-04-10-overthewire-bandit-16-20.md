@@ -189,7 +189,8 @@ That said we still have 50/50 chance between these two ports or do we...
 
 ![](https://media0.giphy.com/media/VhRK9ZABipMLRy7JM6/giphy.gif)
 
-Notice below the scan...nmap gives a little more tid bit of information by showing what looks like a returned string value of "Wrong! Please enter the correct current password":
+Notice below the scan...nmap gives a little more tid bit of information by showing what looks like a returned string value of "Wrong! Please enter the correct current password".
+
 ```console
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
 SF-Port31790-TCP:V=7.40%T=SSL%I=7%D=4/17%Time=607A22E0%P=x86_64-pc-linux-g
@@ -236,20 +237,40 @@ Yep we we're correct! We got a private key that can be used for authentication t
 
 *Note: Just to show you that the other SSL port 31518 just simply repeats back whatever we input.*
 
-So now all we have to do is create a folder so we can store this ssh key somewhere.
-
-```console
-bandit16@bandit:~$ mkdir -p /tmp/me_bandit16-17
-```
-command and then copied the key and saved it to a file named bandit17.key then changed the file permissions with the "chmod 600 bandit17.key" command. I ran "ssh -i bandit17.key bandit17@localhost" and I was able to log into the bandit17�s profile
-
 ```console
 bandit16@bandit:~$ ncat --ssl localhost 31518
 cluFn7wTiGryunymYOu4RcffSxQluehd
 cluFn7wTiGryunymYOu4RcffSxQluehd
 ```
 
+We're not out of this level yet though. So now all we have to do is create a folder so we can store this ssh key somewhere.
+
+```console
+bandit16@bandit:~$ mkdir -p /tmp/me_bandit16-17
+bandit16@bandit:~$ nano /tmp/me_bandit16-17/sshkey.private
+<paste key here>
+....
+```
+We also have to change the file permissions of the key file: `chmod 600 sshkey.private`
+
+Now we pipe the key to ssh to login to `bandit17@localhost`.
+
+````console
+bandit16@bandit:~$ ssh -i sshkey.private bandit17@localhost
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ECDSA key fingerprint is SHA256:98UL0ZWr85496EtCRkKlo20X3OPnyPSB5tB5RPbhczc.
+Are you sure you want to continue connecting (yes/no)? yes
+bandit17@bandit:~$
+```
+
+Lastly remember in level 14 all passwords are stored in the `/etc/bandit_pass/` folder. So we just `cat` the file for the current level to get the password like so.
+
+```console
+bandit17@bandit:~$ cat /etc/bandit_pass/bandit17
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+```
+
 > > **Username:** bandit17
-> **Password:** sshkey.private
+> **Password:** xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
 
 ---
