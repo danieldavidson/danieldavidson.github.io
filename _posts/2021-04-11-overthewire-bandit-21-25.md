@@ -89,3 +89,52 @@ Here's a demo in action:
 > **Password:** gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
 
 ---
+
+## Bandit 22
+
+[http://overthewire.org/wargames/bandit/bandit22.html](http://overthewire.org/wargames/bandit/bandit22.html)
+
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
+
+Very easy level, you'll need to read about cron, but for now first paragraph of this [link ](https://help.ubuntu.com/community/CronHowto)will do:
+
+```
+ "Cron is a system daemon used to execute desired tasks (in the background) at
+ designated times.
+ 
+ A crontab file is a simple text file containing a list of commands meant to be
+ run at specified times. It is edited using the crontab command. The commands
+ in the crontab file (and their run times) are checked by the cron daemon,
+ which executes them in the system background."
+```
+
+First, let's see which cron job is being executed for bandit 22:
+
+
+```console
+bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+```
+
+What does `/usr/bin/cronjob_bandit22.sh` do?
+
+```console
+bandit21@bandit:~$ cat /usr/bin/cronjob_bandit22.sh
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+
+First line after the sha-bang gives the temp file the following permissions: user can write, anyone can read. So we're able to read the content of that file.
+Second line copies the content of /etc/bandit_pass/bandit22 (containing our password) to the temporary file. Check it's content and you'll find the password to the next level!
+
+```console
+bandit21@bandit:~$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+```
+
+> **Username:** bandit22
+> **Password:** Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+---
