@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OverTheWire: Bandit 26-37"
+title: "OverTheWire: Bandit 26-27"
 date: 2021-04-12 23:24:03
 description: OverTheWire - Bandit Walkthrough
 toc: false
