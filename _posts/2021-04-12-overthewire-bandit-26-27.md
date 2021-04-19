@@ -83,7 +83,7 @@ Okay now that we've got `more` paused for lack of a better phrase, what do we do
 
 So you press *v* on the keyboard to open `vim` and you can rescale your window so that you're actually able to see now. 
 
-~[](/assets/images/posts/bandit26-vim1.png)
+![](/assets/images/posts/bandit26-vim1.png)
 
 If you’re unfamiliar with `vim`, make sure you press escape to enter command mode.
 
