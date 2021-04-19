@@ -141,7 +141,7 @@ Run a command as another user.
   Example: ./bandit27-do id
 ```
 
-Okay so whatever command we want as the user bandit27. This means we can bypass use permissions and  just read the password file directly for user bandit27. 
+Okay so we can execute whatever command we want as the user bandit27. This means we can bypass use permissions and  just read the password file directly for user bandit27. 
 
 ```console
 bandit26@bandit:~$ ./bandit27-do cat /etc/bandit_pass/bandit27
