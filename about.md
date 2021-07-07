@@ -14,7 +14,6 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 - Currently working on CompTIA Network+
 
 <script src="https://tryhackme.com/badge/389979"></script>
-<script src="https://app.hackthebox.eu/profile/143171"></script>
 
 ------
 
