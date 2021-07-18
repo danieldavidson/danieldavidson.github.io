@@ -301,7 +301,8 @@ nav {
   
   .nav-link:hover {
     color: white;
-    border-bottom: .25px solid #9ADD15;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #9ADD15;
   }
 
   .navbar-brand {
