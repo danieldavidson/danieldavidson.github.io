@@ -108,6 +108,10 @@ a:hover {
   color: white;
 }
 
+a.nav-item.nav-link:active {
+  color: #9ADD15;
+}
+
 a.post-title-text {
   //color: #ff7f50; //original
   color: #9ADD15;
@@ -297,6 +301,9 @@ nav {
   }
   .navbar-brand:hover, .nav-link:hover {
     color: white !important;
+  }
+  .nav-link:active {
+    color: #9ADD15;
   }
   .navbar-brand {
     font-size: 29px;
