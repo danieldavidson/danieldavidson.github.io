@@ -108,7 +108,7 @@ a:hover {
   color: white;
 }
 
-a.nav-item.nav-link:focus {
+a.nav-item.nav-link:visited {
   color: #9ADD15 !important;
 }
 
@@ -301,9 +301,6 @@ nav {
   }
   .navbar-brand:hover, .nav-link:hover {
     color: white;
-  }
-  .nav-link:visited {
-    color: #9ADD15;
   }
   .navbar-brand {
     font-size: 29px;
