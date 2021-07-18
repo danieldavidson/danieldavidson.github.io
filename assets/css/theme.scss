@@ -103,6 +103,10 @@ a {
   color: $accent-color;
 }
 
+a.nav-link:active {
+  color: #9ADD15;
+}
+
 a:hover {
   text-decoration: none;
   color: white;
@@ -314,9 +318,6 @@ nav {
   .shrink .navbar-toggler {
     padding: 4px 5px;
     margin: 8px 15px 8px 0;
-  }
-  nav:active {
-    color: #9ADD15;
   }
 }
 
