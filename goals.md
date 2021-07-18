@@ -11,10 +11,10 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 
 ## 2021
 - <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
-- ~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021
+- <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
 - Obtain Network+ certification
-- ~~Build a Proxmox virtualization lab~~ - 07/12/2021
-- ~~Learn about Ansible~~ - 07/13/2021
+- <span style="color: #9ADD15;">~~Build a Proxmox virtualization lab~~ - 07/12/2021</span>
+- <span style="color: #9ADD15;">~~Learn about Ansible~~ - 07/13/2021</span>
 - Complete Pre Security TryHackMe path
 - Complete Complete Beginner TryHackMe path
 - Complete CompTIA Pentest+ TryHackMe path
