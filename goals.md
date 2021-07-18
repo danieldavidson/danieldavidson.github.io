@@ -10,7 +10,7 @@ title: Goals
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
 ## 2021
-- ~~Build website~~ - 03/22/2021
+- <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
 - ~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021
 - Obtain Network+ certification
 - ~~Build a Proxmox virtualization lab~~ - 07/12/2021
