@@ -103,15 +103,6 @@ a {
   color: $accent-color;
 }
 
-a:active {
-  color: #9ADD15;
-}
-
-a.nav-item.nav-link:focus {
-  color:#9ADD15;
-}
-
-
 a:hover {
   text-decoration: none;
   color: white;
@@ -517,4 +508,12 @@ table.inner-borders {
   .footer-distributed .footer {
     line-height: 1.8;
   }
+}
+
+a.nav-item.nav-link:active {
+  color: #9ADD15;
+}
+
+a.nav-item.nav-link:focus {
+  color:#9ADD15;
 }
