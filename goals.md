@@ -12,7 +12,6 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 ## 2021
 - ~~Build website~~ - 03/22/2021
 - ~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021
-- Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804)
 - Obtain Network+ certification
 - ~~Build a Proxmox virtualization lab~~ - 07/12/2021
 - ~~Learn about Ansible~~ - 07/13/2021
@@ -27,3 +26,4 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - Complete Practical Ethical Hacking at TCM
 - Complete Penetration Testing Student at INE
 - Obtain eJPT certification
+- Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804)
