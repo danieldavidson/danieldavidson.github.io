@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Achievements
+title: Goals
 ---
 
-# Achievements & Goals
+# Goals
