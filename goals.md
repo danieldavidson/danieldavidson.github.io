@@ -5,6 +5,8 @@ title: Goals
 
 # Goals & Achievements
 
+![](https://64.media.tumblr.com/0162678feaa9a658ee4bb6288f0e5f56/tumblr_oobri0OSY71svp9p7o1_500.gif)
+
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
 ## 2021
