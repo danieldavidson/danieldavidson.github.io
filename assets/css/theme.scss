@@ -299,9 +299,11 @@ nav {
     color: white;
   }
   
-  .nav-link:hover, .nav-link:active, .nav-link:focus {
-    color: #9ADD15 !important;
+  .nav-link:hover {
+    color: white;
+    border-bottom: 4px solid #9ADD15;
   }
+
   .navbar-brand {
     font-size: 29px;
     color: #777;
