@@ -5,9 +5,11 @@ title: Goals
 
 # Goals & Achievements
 
-![Image courtesy of https://0moistywind0.tumblr.com](https://64.media.tumblr.com/74da0da06021e35cf5017d8b2479ef71/tumblr_p5qcmdaKXR1x5p4g9o1_1280.gifv)
+![](https://64.media.tumblr.com/74da0da06021e35cf5017d8b2479ef71/tumblr_p5qcmdaKXR1x5p4g9o1_1280.gifv)
 
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
+
+<img src="https://tryhackme-badges.s3.amazonaws.com/Pyr0.png" alt="TryHackMe">
 
 ## 2021
 - <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
