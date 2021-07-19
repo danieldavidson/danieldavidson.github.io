@@ -19,4 +19,4 @@ tags:
 7. Have a big vision, but execute incrementally.
 8. Beware of people who ask for a template instead of charging forward.
 9. When things get political, get valuable.
-10.  NEVER give up!
+10. NEVER give up!
