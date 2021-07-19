@@ -10,7 +10,7 @@ tags:
 *Over my career, I’ve kept a short, private list of the most important lessons I’ve learned, usually the hard way. In hopes that others might avoid the mistakes I've made, I've decided to publish and maintain that list here.*
 
 1. K.I.S.S. - "Keep it super simple"
-2. Keep your distance from people who will never admit they are wrong and always try to make you feel like it's all your fault.
+2. Keep your distance from people who will never admit they are wrong.
 3. Sit with warriors. The conversation is different.
 4. Don't care about who's doing better than you. Be better than yourself yesterday.
 5. Make things modular.
