@@ -3,7 +3,7 @@
 layout: post
 title: "Career Lessons"
 date: 2021-07-18 21:31:06
-description: Just a few lessons I've learned along the way
+description: Just a few things I've learned along the way
 tags:
  - misc
 ---
