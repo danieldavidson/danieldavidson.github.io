@@ -1,5 +1,4 @@
 ---
----
 layout: post
 title: "Career Lessons"
 date: 2021-07-18 21:31:06
