@@ -13,7 +13,6 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 <details>
   <summary>Click to expand!</summary>
   
-  ## Goals for 2021
   * <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
   * <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
   * Obtain Network+ certification
