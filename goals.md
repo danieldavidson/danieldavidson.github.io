@@ -9,8 +9,6 @@ title: Goals
 
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
-<a href="https://tryhackme.com/p/Pyr0"><script src="https://tryhackme.com/badge/389979"></script></a>
-
 ## 2021
 - <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
 - <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
