@@ -9,7 +9,7 @@ title: Goals
 
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
-<a href="https://tryhackme.com/p/Pyr0"><img src="https://tryhackme-badges.s3.amazonaws.com/Pyr0.png" alt="TryHackMe"></a>
+<a href="https://tryhackme.com/p/Pyr0"><script src="https://tryhackme.com/badge/389979"></script></a>
 
 ## 2021
 - <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
