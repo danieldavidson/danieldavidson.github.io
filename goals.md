@@ -38,4 +38,3 @@ Here is a slightly condensed version of my goals and achievements to hold myself
   - CompTIA Network+ N10-007 Exam Cram, Emmett Dulaney
   - Demian, Hermann Hesse
   - The Pentester BluePrint: Starting a Career as an Ethical Hacker
-  More added later...
