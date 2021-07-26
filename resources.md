@@ -7,6 +7,11 @@ title: Resources
 
 Below, I’ve compiled a number of resources I have come across which span topics related to system administration, Unix/Linux, penetration testing, and cyber security. As this list will be constantly evolving, please reach out to me if you have a resource(s) that you would like to contribute.
 
+## Gear
+
+- [My Tech EDC Bag](https://kit.co/danieldavidson/tech-edc)
+- [Urban Bug out Bag](https://kit.co/danieldavidson/urban-bug-out-bag)
+
 ## Linux
 
 - [Linux from Scratch](http://www.linuxfromscratch.org/)
