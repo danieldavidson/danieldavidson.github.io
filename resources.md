@@ -12,7 +12,7 @@ Below, I’ve compiled a number of resources I have come across which span topic
 - [My Tech EDC Bag](https://kit.co/danieldavidson/tech-edc)
 - [Urban Bug out Bag](https://kit.co/danieldavidson/urban-bug-out-bag)
 
-# Notable Books
+## Books
 - [The Pentester Blueprint](https://www.goodreads.com/book/show/52588018-the-pentester-blueprint?from_search=true&from_srp=true&qid=PgUTp3bqd6&rank=1) by Phillip Wylie, Kim Crawley
 
 ## Linux
