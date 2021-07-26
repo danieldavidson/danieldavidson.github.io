@@ -24,6 +24,9 @@ Below, I’ve compiled a number of resources I have come across which span topic
 
 ## Penetration Testing
 
+- [SimplyCyber FREE Resources](https://www.simplycyber.io/free-cyber-resources)
+- [INE](https://ine.com)
+- [TryHackMe](https://tryhackme.com/)
 - [Hack the Box](https://www.hackthebox.eu/)
 - [Vulnerable by Design](https://www.vulnhub.com/)
 - [Shell-storm Shell-code Database](http://shell-storm.org/shellcode/)
