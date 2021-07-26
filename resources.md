@@ -27,6 +27,7 @@ Below, I’ve compiled a number of resources I have come across which span topic
 
 ## Penetration Testing
 
+- [PTES-Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main_Page)
 - [SimplyCyber FREE Resources](https://www.simplycyber.io/free-cyber-resources)
 - [INE](https://ine.com)
 - [TryHackMe](https://tryhackme.com/)
