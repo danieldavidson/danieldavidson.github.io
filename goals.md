@@ -33,7 +33,7 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - Complete 50 TryHackMe CTFs
 - Complete 100 TryHackMe CTFs
 - <span style="color: #9ADD15;">~~Become top 10% on TryHackMe~~ - 07/23/2021</span>
-- <span style="color: #9ADD15;">~~Become top 5% on TryHackMe~~ - 07/30/2021</span>
+- <span style="color: #9ADD15;">~~Become top 5% on TryHackMe~~ - 08/01/2021</span>
 - Become top 2% on TryHackMe
 - Become top 1% on TryHackMe
 - Complete Practical Ethical Hacking at TCM
