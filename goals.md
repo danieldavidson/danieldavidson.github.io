@@ -11,11 +11,9 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 
 ## 2021
 - <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
-  - <span style="color: #9ADD15;">~~Write 5 blog posts~~ - 04/21/2021</span>
-  - Write 10 blog posts
-  - Write 25 blog posts
-  - Write 50 blog posts
-  - Write 100 blog posts
+- Write 25 blog posts
+- Write 50 blog posts
+- Write 100 blog posts
 - <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
 - Complete CompTIA Network+ Cert. (N10-007): The Total Course (Mike Meyers)
 - Complete CompTIA N10-007 Network+ Course (Professor Messer)
@@ -28,7 +26,6 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - Complete CompTIA Offensive Pentesting TryHackMe path
 - Complete CompTIA Cyber Defense TryHackMe path
 - Complete CompTIA Web Fundamentals TryHackMe path
-- <span style="color: #9ADD15;">~~Complete 10 TryHackMe CTFs~~ - 07/23/2021</span>
 - <span style="color: #9ADD15;">~~Complete 25 TryHackMe CTFs~~ - 07/27/2021</span>
 - Complete 50 TryHackMe CTFs
 - Complete 100 TryHackMe CTFs
@@ -40,12 +37,3 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - Complete Penetration Testing Student at INE
 - Obtain eJPT certification
 - Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
-  - <span style="color: #9ADD15;">~~*No Longer Human*, Osamu Dazai~~</span>
-  - <span style="color: #9ADD15;">~~*The Setting Sun*, Osamu Dazai~~</span>
-  - <span style="color: #9ADD15;">~~*Linux Basics for Hackers*, Occupytheweb~~</span>
-  - <span style="color: #9ADD15;">~~*The Catcher in the Rye*, J. D. Salinger~~</span>
-  - <span style="color: #9ADD15;">~~"The Moon over the Mountain", Atsushi Nakajima~~</span>
-  - CompTIA Network+ Certification All-in-One Exam Guide, Seventh Edition (Exam N10-007), Mike Meyers
-  - CompTIA Network+ N10-007 Exam Cram, Emmett Dulaney
-  - Demian, Hermann Hesse
-  - The Pentester BluePrint: Starting a Career as an Ethical Hacker
