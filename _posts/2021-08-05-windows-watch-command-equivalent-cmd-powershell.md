@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Windows Watch Command Equivalent - PowerShell & CMD"
+title: "Watch Command in Windows"
 date: 2021-08-05 22:37:18
-description: Get the `Watch` Linux command in Windows
+description: Windows Watch Command Equivalent - PowerShell & CMD
 tags:
  - cmd, powershell, command-line
 ---
