@@ -5,6 +5,8 @@ date: 2021-07-18 21:31:06
 description: Just a few things I've learned along the way
 tags:
  - misc
+ - career
+ - lessons
 ---
 
 *Over my career, I’ve kept a short, private list of the most important lessons I’ve learned, usually the hard way. In hopes that others might avoid the mistakes I've made, I've decided to publish and maintain that list here.*
