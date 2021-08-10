@@ -33,4 +33,4 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - Obtain eJPT certification
   - Complete Practical Ethical Hacking at TCM
   - Complete Penetration Testing Student at INE
-- [ ] Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
+- Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
