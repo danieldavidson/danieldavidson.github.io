@@ -34,4 +34,5 @@ Here is a slightly condensed version of my goals and achievements to hold myself
   - Complete Practical Ethical Hacking at TCM
   - Complete Penetration Testing Student at INE
 - Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
-- Reach 500 connections on Linkedin
+- <span style="color: #9ADD15;">~~Reach 500 connections on Linkedin~~ - 08/11/2021</span>
+
