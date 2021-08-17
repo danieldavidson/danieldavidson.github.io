@@ -27,8 +27,6 @@ Now you've probably heard of cryptography but what is steganography? Without get
 - Debian-based systems
   - `sudo apt install steghide`
 
-<br>
-
 - Arch Linux-based systems
   - `sudo pacman -S steghide`
 
