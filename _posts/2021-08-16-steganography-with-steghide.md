@@ -20,7 +20,7 @@ Did you know that the Roman Empire would select a slaves then shave their heads 
 
 ## But wait dude? What is steganography?
 
-Now you've probably heard of cryptography but what is steganography? Without getting too deep into discussion, crytography is a means of encrypting known data to protect it whereas steganography is the art of concealing any occurence of data in plain sight. If you want to know more info about the differences between I suggest reading this [article](https://sectigostore.com/blog/what-is-the-difference-between-steganography-vs-cryptography/). Open a terminal and let's get started!
+Now you've probably heard of cryptography but what is steganography? Without getting too deep into discussion, crytography is a means of encrypting known data to protect it whereas steganography is the art of concealing any occurence of data in plain sight. If you want to know more info about the differences between the two I suggest reading this [article](https://sectigostore.com/blog/what-is-the-difference-between-steganography-vs-cryptography/). Open a terminal and let's get started!
 
 ## Installation
 
