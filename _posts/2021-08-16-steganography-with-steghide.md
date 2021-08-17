@@ -10,7 +10,7 @@ tags:
  - cryptography
 ---
 
-Today I will show you a steganography method on how to hide sensitive data inside image and audio files using the steghide utility.
+Today I will show you a steganography method on how to hide sensitive data inside image and audio files using the steghide utility. The author of this tool is Stefan Hetzl.
 
 ![A picture of Mona Lisa with a magnifying glass peering into ones and zeros.](/assets/images/posts/monalisa-steganography.jpg)
 
