@@ -10,6 +10,9 @@ title: Goals
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
 ## 2021
+- 🔥 Obtain eJPT certification - [Click here for ejPT Study Group Calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vThAsqZ10T-qImrnpd3tcAIL86El04odR15FhXQqGNkwkEDAXVzXakiEbuLdr0U1AUAINAz4iB1o_Nm/pubhtml)
+  - Complete Practical Ethical Hacking at TCM
+  - Complete Penetration Testing Student at INE
 - <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
   - Write 100 blog posts
 - <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
@@ -30,9 +33,6 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - <span style="color: #9ADD15;">~~Become top 10% on TryHackMe~~ - 07/23/2021</span>
 - <span style="color: #9ADD15;">~~Become top 5% on TryHackMe~~ - 08/01/2021</span>
 - Become top 1% on TryHackMe
-- Obtain eJPT certification
-  - Complete Practical Ethical Hacking at TCM
-  - Complete Penetration Testing Student at INE
 - Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
 - <span style="color: #9ADD15;">~~Reach 500 connections on Linkedin~~ - 08/11/2021</span>
 
