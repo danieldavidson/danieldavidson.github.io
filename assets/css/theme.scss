@@ -525,5 +525,9 @@ table.inner-borders {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
 }
