@@ -1,25 +1,21 @@
 {% include header.html %}
   
-    <div id="particles-js">
-      <div class="wrapper">
-        <div class="content">
-          <div class="container container-center">
-            <div class="row">
-              <div class="col-md-8 offset-md-1">
-                <div class="card">
-                  {{ content }}
-                </div>
+    <div class="wrapper">
+      <div class="content">
+        <div class="container container-center">
+          <div class="row">
+            <div class="col-md-8 offset-md-1">
+              <div class="card">
+                {{ content }}
               </div>
-              <div class="col-md-3 hidden-xs">
-                {% include sidebar.html %}
-              </div>
+            </div>
+            <div class="col-md-3 hidden-xs">
+              {% include sidebar.html %}
             </div>
           </div>
         </div>
-        {% include footer.html %}
       </div>
+      {% include footer.html %}
     </div>
-    <script src="/assets/js/particles.js"></script>
-    <script src="/assets/js/app.js"></script>
   </body>
 </html>
