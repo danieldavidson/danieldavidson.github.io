@@ -11,7 +11,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 ## Certifications
 
 - Cisco Certified Network Associate (CCNA)
-- Currently working on CompTIA Network+
+- Currently working on eJPT
 
 ------
 
