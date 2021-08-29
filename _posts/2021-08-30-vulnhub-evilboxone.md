@@ -165,7 +165,7 @@ systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 ```
 > **Username:** mowree
 
-Okay we have a user, mowree. Since LFI is possible let's see if we can't traverse into other areas of the target. For example we know the target is running a ssh service so let's look to see we can find any ssh keys...
+Okay we have a user, mowree. Since LFI is possible let's see if we can traverse into other areas of the target. For example we know the target is running a ssh service so let's look to see we can find any ssh keys...
 
 You could in theory go to this path directly from a web browser but for the sake of best practices I did a `GET` request in BurpSuite using Repeater.
 
