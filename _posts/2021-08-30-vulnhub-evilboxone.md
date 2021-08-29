@@ -14,6 +14,8 @@ Difficulty: Easy
 
 ## Enumeration/Scanning
 
+First we'll conduct a `nmap` scan.
+
 ```console
 # sudo nmap -sC -sV 10.0.2.16 -oN evilboxone-nmap.scan
 
