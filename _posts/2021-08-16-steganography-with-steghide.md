@@ -4,7 +4,6 @@ title: "Steganography with Steghide"
 date: 2021-08-16 19:21:06
 description: Steghide is a stego program that is able to hide data in various kinds of image and audio-files.
 tags:
- - command-line
  - linux
  - cryptography
 ---

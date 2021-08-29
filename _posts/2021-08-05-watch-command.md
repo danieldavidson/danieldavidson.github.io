@@ -4,8 +4,7 @@ title: "Watch Command in Windows"
 date: 2021-08-05 22:37:18
 description: Windows Watch Command Equivalent - PowerShell & CMD
 tags:
- - powershell
- - command-line
+ - windows
 ---
 
 If you're not familiar with the `watch` command in Linux. It is used for executing a command perodically and showing the output.
