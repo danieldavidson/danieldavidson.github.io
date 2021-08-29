@@ -45,6 +45,7 @@ The nmap scan gives us 2 ports or services.
 | 80   	| open  	| http    	| Apache httpd 2.4.38 ((Debian))                 	|
 {:.wide}
 
+
 ### Enumerating port 80
 Okay let's visit the site first.
 
