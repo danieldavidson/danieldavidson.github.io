@@ -53,7 +53,7 @@ Okay let's visit the site first.
 
 It returns the familiar Debian Apache Default page when Apache is first installed. 
 
-Okay so we've established that there is an apache web server running on the target but nothing really stands out yet. Let's see if we can't build a small site-map of the web server. You can use dirbuster or gobuster or whatever you like. In this walkthrough I'm going to use feroxbuster to see if I find any hidden directories. 
+Okay so we've established that there is an apache web server running on the target but nothing really stands out yet. Let's see if we can build a small site-map of the web server. You can use dirbuster or gobuster or whatever you like. In this walkthrough I'm going to use feroxbuster to see if I find any hidden directories. 
 
 ```console
 # feroxbuster -u http://10.0.2.16 -w /usr/share/seclists/Discovery/Web-Content/common.txt -t 200 -C 403 -x txt,php,log,bak
