@@ -274,7 +274,7 @@ less -r /dev/shm/linpeas.txt #Read with colors
 **OUTPUT**
 ![Linpeas data output revealing that /etc/passwd is writeable](https://i.imgur.com/8LIlSda.png)
 
-Linpeas data output revealing that /etc/passwd is writeable
+Linpeas data output revealing that `/etc/passwd` is writeable
 ```console
 ╔══════════╣ Interesting writable files owned by me or writable by everyone (not in Home) (max 500)
 ╚ https://book.hacktricks.xyz/linux-unix/privilege-escalation#writable-files                                                                                                                                                                  

@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: daniel's blog
-description:
+description: Daniel's blog - Cybersecurity writeups, resources, and more.
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://danieldavidson.github.io
