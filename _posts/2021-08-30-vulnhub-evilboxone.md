@@ -8,7 +8,7 @@ tags:
  - vulnhub
 ---
 
-This post covers my walkthrough of [EVILBOX: ONE](https://www.vulnhub.com/entry/evilbox-one,736/) from VulnHub.
+This post covers my writeup of [EVILBOX: ONE](https://www.vulnhub.com/entry/evilbox-one,736/) from VulnHub.
 
 Difficulty: Easy
 
