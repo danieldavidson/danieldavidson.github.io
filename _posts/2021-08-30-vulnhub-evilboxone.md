@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Vulnhub: EvilBox One - Writeup"
+title:  "Vulnhub: EvilBox One"
 date:   2021-08-30 12:30:00
-description: "Vulnhub EvilBox: One Walkthrough"
+description: "Vulnhub: EvilBox One Writeup"
 toc: false
 tags:
  - vulnhub
