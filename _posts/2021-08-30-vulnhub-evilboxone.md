@@ -363,10 +363,10 @@ mowree@EvilBoxOne:/dev/shm$ su -l root
 Contraseña: 
 root@EvilBoxOne:/dev/shm# whoami
 root
-root@EvilBoxOne:/dev/shm# cd /root
 root@EvilBoxOne:~# id
 uid=0(root) gid=0(root) grupos=0(root)
-root@EvilBoxOne:~# ls -lash
+root@EvilBoxOne:/dev/shm# cd /root
+root@EvilBoxOne:/root# ls -lash
 total 24K
 4,0K drwx------  3 root 4,0K ago 16 13:06 .
 4,0K drwxr-xr-x 18 root 4,0K ago 16 11:16 ..
@@ -375,9 +375,8 @@ total 24K
 4,0K drwxr-xr-x  3 root 4,0K ago 16 11:40 .local
 4,0K -rw-r--r--  1 root  148 ago 17  2015 .profile
 4,0K -r--------  1 root   31 ago 16 12:57 root.txt
-root@EvilBoxOne:~# cat root.txt
+root@EvilBoxOne:/root# cat root.txt
 36QtXfdJWvdC0VavlPIApUbDlqTsBM
-root@EvilBoxOne:~#
 ```
 
 We got root! Success! 
