@@ -43,7 +43,7 @@ The nmap scan gives us 2 ports or services.
 |------	|-------	|---------	|------------------------------------------------	|
 | 22   	| open  	| ssh     	| OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0) 	|
 | 80   	| open  	| http    	| Apache httpd 2.4.38 ((Debian))                 	|
-{:wide}
+{:.wide}
 
 ### Enumerating port 80
 Okay let's visit the site first.
