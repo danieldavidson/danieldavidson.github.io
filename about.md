@@ -22,7 +22,7 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 This site serves as an external memory source to note and share my experiences. It is my intention through this endeavor to document resources and findings that I have to found to be critical to my progress as a ethical hacker and sysadmin professional. I hope, not only will this be a learning experience for myself, but a resource for others as well.
 
 <p align="center">
-  <img src="/assets/images/danielsblog-particlejs-demo.gif">
+  <img src="/assets/images/danielsblog-demo.gif">
 </p>
 
 Some fun facts about the setup of this project include:
