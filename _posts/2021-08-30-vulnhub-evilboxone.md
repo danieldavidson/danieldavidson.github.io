@@ -8,13 +8,13 @@ tags:
  - vulnhub
 ---
 
-This post covers my writeup of [EVILBOX: ONE](https://www.vulnhub.com/entry/evilbox-one,736/) from VulnHub.
+Hello friend! My name is Daniel aka Pyr0, the author of danieldavidson.github.io, and today I want to cover my writeup of [EVILBOX: ONE](https://www.vulnhub.com/entry/evilbox-one,736/) from VulnHub.
 
 Difficulty: Easy
 
 ## Enumeration/Scanning
 
-First we'll conduct a `nmap` scan.
+First, we'll conduct a `nmap` scan.
 
 ```console
 # sudo nmap -sC -sV 10.0.2.16 -oN evilboxone-nmap.scan
@@ -39,7 +39,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 # Nmap done at Sun Aug 29 12:19:46 2021 -- 1 IP address (1 host up) scanned in 14.17 seconds
 ```
 
-The nmap scan gives us 2 ports or services.
+The Nmap scan gives us 2 ports or services.
 
 |Port|State|Service|Version                                       |
 |----|-----|-------|----------------------------------------------|
@@ -49,13 +49,13 @@ The nmap scan gives us 2 ports or services.
 
 
 ### Enumerating port 80
-Okay let's visit the site first.
+Okay, let's visit the site first.
 
 ![A picture of the Debian Apache Default Page](https://i.stack.imgur.com/1NOHl.jpg)
 
 It returns the familiar Debian Apache Default page when Apache is first installed. 
 
-Okay so we've established that there is an apache web server running on the target but nothing really stands out yet. Let's see if we can build a small site-map of the web server. You can use dirbuster or gobuster or whatever you like. In this walkthrough I'm going to use feroxbuster to see if I find any hidden directories. 
+Okay, so we've established that there is an apache web server running on the target but nothing really stands out yet. Let's see if we can build a small site map of the webserver. You can use dirbuster or gobuster or whatever you like. In this write-up, I'm going to use feroxbuster to see if I find any hidden directories. 
 
 ```console
 # feroxbuster -u http://10.0.2.16 -w /usr/share/seclists/Discovery/Web-Content/common.txt -t 200 -C 403 -x txt,php,log,bak
@@ -89,7 +89,7 @@ by Ben "epi" Risher 🤓                 ver: 2.3.1
 [####################] - 12s    23430/23430   1855/s  http://10.0.2.16/secret
 ```
 
-Under the secret folder we see `evil.php`. If we visit this url path we get a blank html page.
+Under the secret folder, we see `evil.php`. If we visit this URL path we get a blank HTML page.
 
 ```console
 HTTP/1.1 200 OK
@@ -167,9 +167,9 @@ systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 ```
 > **Username:** mowree
 
-Okay we have a user, mowree. Since LFI is possible let's see if we can traverse into other areas of the target. For example we know the target is running a ssh service so let's look to see we can find any ssh keys...
+Okay, we have a user, mowree. Since LFI is possible let's see if we can traverse into other areas of the target. For example, we know the target is running an ssh service so let's look to see we can find any ssh keys...
 
-You could in theory go to this path directly from a web browser but for the sake of best practices I did a `GET` request in BurpSuite using Repeater.
+You could, in theory, go to this path directly from a web browser but for the sake of best practices, I did a `GET` request in BurpSuite using Repeater.
 
 ![GET request using Burpsuite Repeater](https://i.imgur.com/tqyCvkw.png)
 
@@ -215,7 +215,7 @@ i99+vYdwe8+8nJq4/WXhkN+VTYXndET2H0fFNTFAqbk2HGy6+6qS/4Q6DVVxTHdp
 
 ## Gaining Access
 
-Awesome we have the RSA private key. That said, it's encrypted. Here we can use a python tool called `ssh2john`. This is a script that basically transforms [RSA/DSA/EC/OPENSSH (SSH private keys)] private key to `john` format for later cracking with **John the Ripper**.
+Awesome we have the RSA private key. That said, it's encrypted. Here we can use a python tool called `ssh2john`. This is a script that basically transforms [RSA/DSA/EC/OpenSSH (SSH private keys)] private key to `john` format for later cracking with **John the Ripper**.
 
 ```console
 # /usr/share/john/ssh2john.py id_rsa > id.john
@@ -251,7 +251,7 @@ mowree
 
 ## Privilege Escalation
 
-For simplicity we'll utilize `linpeas` - Linux Privilege Escalation Awesome Script.
+For simplicity, we'll utilize `linpeas` - Linux Privilege Escalation Awesome Script.
 
 ![LinPEAS Logo](https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/linPEAS/images/linpeas.png)
 
@@ -358,7 +358,7 @@ sync:x:4:65534:sync:/bin:/bin/sync
 ...
 ```
 
-Now we should be able to login as the user root.
+Now we should be able to log in as the user root.
 
 ```console
 mowree@EvilBoxOne:/dev/shm$ su -l root
