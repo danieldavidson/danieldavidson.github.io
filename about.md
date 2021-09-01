@@ -13,6 +13,10 @@ When I'm not hacking or working, I'm busy trying to keep up with my little one a
 - Cisco Certified Network Associate (CCNA)
 - Currently working on eJPT
 
+<div align="center">
+  <script src="https://tryhackme.com/badge/389979"></script>
+</div>
+  
 ------
 
 # About this site
