@@ -11,26 +11,19 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 
 <h3 style="color: #9ADD15;">2021</h3>
 - 🔥 Obtain eJPT certification - [Click here for ejPT Study Group Calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vThAsqZ10T-qImrnpd3tcAIL86El04odR15FhXQqGNkwkEDAXVzXakiEbuLdr0U1AUAINAz4iB1o_Nm/pubhtml)
-  - Complete Practical Ethical Hacking at TCM
-  - Complete Penetration Testing Student at INE
-- <span style="color: #9ADD15;">~~Build website~~ - 03/22/2021</span>
-  - Write 100 blog posts
+  - Complete Practical Ethical Hacking course at TCM
+  - Complete Penetration Testing Student course at INE
+- <span style="color: #9ADD15;">~~Build my blog~~ - 03/22/2021</span>
+- Write 25 blog posts
 - <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
-- Obtain Network+ certification
-  - Complete CompTIA Network+ Cert. (N10-007): The Total Course (Mike Meyers)
-  - Complete CompTIA N10-007 Network+ Course (Professor Messer)
 - <span style="color: #9ADD15;">~~Build a Proxmox virtualization lab~~ - 07/12/2021</span>
-- <span style="color: #9ADD15;">~~Learn about Ansible~~ - 07/13/2021</span>
 - <span style="color: #9ADD15;">~~Complete Pre Security TryHackMe path~~ - 07/21/2021</span>
 - Complete Complete Beginner TryHackMe path
 - Complete CompTIA Pentest+ TryHackMe path
 - Complete CompTIA Offensive Pentesting TryHackMe path
 - Complete CompTIA Cyber Defense TryHackMe path
 - Complete CompTIA Web Fundamentals TryHackMe path
-- <span style="color: #9ADD15;">~~Complete 25 TryHackMe CTFs~~ - 07/27/2021</span>
-- Complete 50 TryHackMe CTFs
 - Complete 100 TryHackMe CTFs
-- <span style="color: #9ADD15;">~~Become top 10% on TryHackMe~~ - 07/23/2021</span>
 - <span style="color: #9ADD15;">~~Become top 5% on TryHackMe~~ - 08/01/2021</span>
 - Become top 1% on TryHackMe
 - Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
