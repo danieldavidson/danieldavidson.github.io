@@ -6,6 +6,7 @@ description: "Vulnhub: EvilBox One Writeup"
 toc: false
 tags:
  - vulnhub
+comments: true
 ---
 
 Hello friend! My name is Daniel aka Pyr0, the author of [danieldavidson.github.io](https://danieldavidson.github.io/). 

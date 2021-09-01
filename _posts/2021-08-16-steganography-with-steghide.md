@@ -6,6 +6,7 @@ description: Steghide is a stego program that is able to hide data in various ki
 tags:
  - linux
  - cryptography
+comments: true
 ---
 
 Today I will show you a steganography method on how to hide sensitive data inside image and audio files using the steghide utility. The author of this tool is Stefan Hetzl.
