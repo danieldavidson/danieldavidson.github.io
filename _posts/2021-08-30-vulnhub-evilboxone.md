@@ -6,6 +6,7 @@ description: "Vulnhub: EvilBox One Writeup"
 toc: false
 tags:
  - vulnhub
+ - pentesting
 comments: true
 ---
 

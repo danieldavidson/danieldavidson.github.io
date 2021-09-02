@@ -6,6 +6,7 @@ description: Steghide is a stego program that is able to hide data in various ki
 tags:
  - linux
  - cryptography
+ - forensics
 comments: true
 ---
 

@@ -6,6 +6,7 @@ description: OverTheWire - Bandit Walkthrough
 toc: false
 tags:
  - overthewire
+ - pentesting
 comments: true
 ---
 

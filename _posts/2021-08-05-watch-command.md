@@ -5,6 +5,7 @@ date: 2021-08-05 22:37:18
 description: Windows Watch Command Equivalent - PowerShell & CMD
 tags:
  - windows
+ - powershell
 comments: true
 ---
 
