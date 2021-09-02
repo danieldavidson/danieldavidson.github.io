@@ -7,7 +7,7 @@ title: Projects
 
 In development...
 
-<ul style="padding-left:0; font:monospace; list-style:none;">
+<ul style="padding-left:0; font-family:monospace; list-style:none;">
     <li>- [ 2021-07 ] Watch-Command</li>
     <li>- [ 2021-06 ] Point to Multipoint Wireless Bridge</li>
     <li>- [ 2021-03 ] My Blog - danieldavidson.github.io</li>
