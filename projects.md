@@ -15,5 +15,5 @@ In development...
 
 ## Coding
 
-- [ 2021-07 ] Watch-Command ([Project link](https://github.com/danieldavidson/Watch-Command))
+- [ 2021-05 ] Watch-Command ([Project link](https://github.com/danieldavidson/Watch-Command))
 - [ 2021-03 ] My Blog ([Project link](https://danieldavidson.github.io)) 
