@@ -9,7 +9,7 @@ title: Goals
 
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
-<h3 style="color: #9ADD15;">2021</h3>
+<h3>2021</h3>
 - 🔥 Obtain eJPT certification - [Click here for ejPT Study Group Calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vThAsqZ10T-qImrnpd3tcAIL86El04odR15FhXQqGNkwkEDAXVzXakiEbuLdr0U1AUAINAz4iB1o_Nm/pubhtml)
 - Complete Practical Ethical Hacking course at TCM
 - Complete Penetration Testing Student course at INE
