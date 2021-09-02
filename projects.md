@@ -7,7 +7,9 @@ title: Projects
 
 In development...
 
-- [ 2021-07 ] Watch-Command
-- [ 2021-06 ] Point to Multipoint Wireless Bridge
-- [ 2021-03 ] My Blog - danieldavidson.github.io
-- [ 2020-01 ] UPS - Battery Backup Project
+<ul style="padding-left:0; font:monospace; list-style:none;">
+    <li>- [ 2021-07 ] Watch-Command</li>
+    <li>- [ 2021-06 ] Point to Multipoint Wireless Bridge</li>
+    <li>- [ 2021-03 ] My Blog - danieldavidson.github.io</li>
+    <li>- [ 2020-01 ] UPS - Battery Backup Project</li>
+</ul>
