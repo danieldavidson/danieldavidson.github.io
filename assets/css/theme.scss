@@ -531,3 +531,39 @@ table.inner-borders {
 .particles-js-canvas-el {
   position: absolute;
 }
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.project-images {
+  position: relative;
+  flex-basis: 58rem;
+}
+
+.project-images img {
+  position: relative;
+  width: 18.75rem;
+  height: 12.5rem;
+  border: 1px solid #111;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0.4s ease;
+}
+
+.project-images img:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.project-images img.zoom {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+  border: 1px solid transparent;
+  z-index: 99;
+}
