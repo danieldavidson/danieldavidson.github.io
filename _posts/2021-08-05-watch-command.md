@@ -6,6 +6,7 @@ description: Windows Watch Command Equivalent - PowerShell & CMD
 tags:
  - windows
  - powershell
+ - coding
 comments: true
 ---
 
