@@ -4,9 +4,9 @@ title: About
 ---
 
 # About Me
-Hi, I'm Daniel. I'm a dad and husband. I guess you could say I break and fix things and spend my time researching interests varying in Computer Science/Information Technology, InfoSec, and occasionally Philosophy and Psychology. I work in the Information Technology sector as a Systems Administrator in Alabama. My background is in system/network administration, linux, python, and information security.
+Hi, I'm Daniel also known as ***Pyr0***. I am a father and husband. I suppose you could best describe me as a *seeker*. Somone who's mind is always tossed restlessly with thought and defined therein by curiosity. I purpose myself to be a student first and foremost in all things. Therefore, I am fond of knowledge and you can usually find me wreathing myself in the arcane interests of Computer Science/Information Technology, InfoSec, and occasionally Philosophy and Psychology. Currently I work in the Information Technology sector as a Systems Administrator in Alabama. My background is in system/network administration, linux, python, and information security.
 
-When I'm not hacking or working, I'm busy trying to keep up with my little one and spending time with my beautiful wife. I'm an avid [reader](https://goodreads.com/daniel_reads) and gamer (mainly World of Warcraft.) I also enjoy playing guitar, camping, working out, and watching [anime](https://myanimelist.net/animelist/danieru_anime?status=2).
+When I'm not devoted to my studies, I'm busy trying to keep up with my little one and spending time with my beautiful wife. I'm an avid [reader](https://goodreads.com/daniel_reads) and musician (guitar). I also enjoy bushcraft camping, working out, and watching the newest crime shows.
 
 ## Certifications
 
