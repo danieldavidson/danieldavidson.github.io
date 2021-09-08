@@ -310,7 +310,8 @@ nav {
     color: #777;
   }
   .navbar-nav {
-    margin-left: auto;
+    // margin-left: auto;
+    margin-left: 61%;
   }
   .navbar.shrink {
     min-height: 15px !important;
@@ -533,7 +534,7 @@ table.inner-borders {
 }
 
 .offset-md-1 {
-    margin-left: 61%; // remove to go back to original config
+    margin-left: 0%; // remove to go back to original config
 }
 
 .col-md-8 {
