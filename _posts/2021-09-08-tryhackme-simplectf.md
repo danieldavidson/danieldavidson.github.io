@@ -15,7 +15,7 @@ comments: true
 This is my write-up for the room [Basic Pentesting](https://tryhackme.com/room/easyctf) on TryHackMe.
 
 <p align="center">
-  <img src="/assets/images/posts/thm-simplectf-banner.png">
+  <img src="/assets/images/posts/thm-easyctf-banner.png">
 </p>
 
 **P.S: I highly encourage you to try solving the challenges on your own first and if you are stuck you can come by and consult this walkthrough**
