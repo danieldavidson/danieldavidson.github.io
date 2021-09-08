@@ -16,6 +16,8 @@ Today I want to cover my writeup of [EVILBOX: ONE](https://www.vulnhub.com/entry
 
 Difficulty: Easy
 
+**P.S: I highly encourage you, to try solving the challenges on your own first and if you are stuck you can come by and consult this walkthrough**
+
 ## Enumeration/Scanning
 
 First, we'll conduct a `nmap` scan.
