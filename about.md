@@ -4,7 +4,7 @@ title: About
 ---
 
 # About Me
-Hi, I'm Daniel also known as ***Pyr0***. I am a father and husband. I suppose you could best describe me as a *seeker*. Someone whose mind is always tossed restlessly with thought and defined therein by curiosity. I purpose myself to be a student first and foremost in all things. Therefore, I am fond of knowledge and you can usually find me wreathing myself in the arcane interests of Computer Science/Information Technology, InfoSec, and occasionally Philosophy and Psychology. Currently, I work in the Information Technology sector as a Systems Administrator in Alabama. My background is in System/Network administration, Linux, Python, and Information Security.
+Hi, I'm **Daniel** also known as ***Pyr0***. I am a father and husband. I suppose you could best describe me as a *seeker*. Someone whose mind is always tossed restlessly with thought and defined therein by curiosity. I purpose myself to be a student first and foremost in all things. Therefore, I am fond of knowledge and you can usually find me wreathing myself in the arcane interests of Computer Science/Information Technology, InfoSec, and occasionally Philosophy and Psychology. Currently, I work in the Information Technology sector as a Systems Administrator in Alabama. My background is in System/Network administration, Linux, Python, and Information Security.
 
 When I'm not devoted to my studies, I'm busy trying to keep up with my little one and spending time with my beautiful wife. I'm an avid [reader](https://goodreads.com/daniel_reads) and musician (guitar). I also enjoy bushcraft camping, working out, and watching the newest crime shows.
 
