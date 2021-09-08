@@ -12,7 +12,7 @@ comments: true
 
 ---
 
-This is my write-up for the room [Basic Pentesting](https://tryhackme.com/room/easyctf) on TryHackMe.
+This is my write-up for the room [Simple CTF](https://tryhackme.com/room/easyctf) on TryHackMe.
 
 <p align="center">
   <img src="/assets/images/posts/thm-easyctf-banner.png">
