@@ -2,7 +2,7 @@
 layout: post
 title:  "TryHackMe Writeup: Simple CTF"
 date:   2021-09-03 22:30:00
-description: "TryHackMe Writeup: Simple CTF"
+description: "TryHackMe: Simple CTF Writeup"
 toc: true
 tags:
  - tryhackme

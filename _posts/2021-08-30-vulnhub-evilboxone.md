@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vulnhub: EvilBox One"
+title:  "Vulnhub Writeup: EvilBox One"
 date:   2021-08-30 12:30:00
 description: "Vulnhub: EvilBox One Writeup"
 toc: false
