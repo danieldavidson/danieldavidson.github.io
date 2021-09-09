@@ -3,7 +3,7 @@ layout: post
 title: "OverTheWire: Bandit 11-15"
 date: 2021-04-09 15:03:01
 description: OverTheWire - Bandit Walkthrough
-toc: false
+toc: true
 tags:
  - overthewire
  - pentesting
