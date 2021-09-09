@@ -8,6 +8,10 @@ tags:
 comments: true
 ---
 
+Reading Time: 2 minutes
+
+---
+
 *Over my career, I’ve kept a short, private list of the most important lessons I’ve learned, usually the hard way. In hopes that others might avoid the mistakes I've made, I've decided to publish and maintain that list here.*
 
 1. K.I.S.S. - "Keep it super simple"

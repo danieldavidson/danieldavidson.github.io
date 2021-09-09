@@ -10,6 +10,8 @@ tags:
 comments: true
 ---
 
+Reading Time: 10 minutes
+
 ---
 
 This is my write-up for the room [Simple CTF](https://tryhackme.com/room/easyctf) on TryHackMe.

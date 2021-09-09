@@ -3,11 +3,15 @@ layout: post
 title:  "Vulnhub Writeup: EvilBox One"
 date:   2021-08-30 12:30:00
 description: "Vulnhub: EvilBox One Writeup"
-toc: false
+toc: true
 tags:
  - vulnhub
  - pentesting
 comments: true
+---
+
+Reading Time: 10 minutes
+
 ---
 
 Hello friend! My name is Daniel aka Pyr0, the author of [danieldavidson.github.io](https://danieldavidson.github.io/). 
