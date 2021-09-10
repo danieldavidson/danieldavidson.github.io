@@ -14,7 +14,7 @@ Reading Time: 10 minutes
 
 ---
 
-Hello friend! My name is Daniel aka Pyr0, the author of [danieldavidson.github.io](https://danieldavidson.github.io/). 
+Hello friend!
 
 Today I want to cover my writeup of [EVILBOX: ONE](https://www.vulnhub.com/entry/evilbox-one,736/) from VulnHub.
 
