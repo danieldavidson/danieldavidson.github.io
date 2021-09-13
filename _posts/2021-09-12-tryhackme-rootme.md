@@ -26,7 +26,7 @@ This is my write-up for the room [Simple CTF](https://tryhackme.com/room/easyctf
 ## Reconnaissance
 ---
 
-Target = 10.10.51.3
+Target = `10.10.51.3`
 
 ## Enumeration / Scanning
 ---
