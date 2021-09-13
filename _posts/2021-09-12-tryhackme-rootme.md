@@ -14,7 +14,7 @@ Reading Time: 10 minutes
 
 ---
 
-This is my write-up for the room [Simple CTF](https://tryhackme.com/room/easyctf) on TryHackMe.
+This is my write-up for the room [RootMe](https://tryhackme.com/room/rrootme) on TryHackMe.
 
 <p align="center">
   <img src="/assets/images/posts/thm-rrootme-banner.png">
