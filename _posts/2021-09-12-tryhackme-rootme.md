@@ -123,7 +123,7 @@ Upon launching Burp I usually use to the embedded browser. Be sure to go to the 
 
 ![](/assets/images/posts/thm-rrootme-04.png)
 
-Now we'll visit http://10.10.85.94/panel/ once again in the embedded browser.
+Now we'll visit http://10.10.51.3/panel/ once again in the embedded browser.
 
 We see the upload form once again. We will first try uploading a simple picture to see how the form handles the request.
 
@@ -137,7 +137,7 @@ Notice the directory path our picture resides. If we explicity visit http://10.1
 
 ![](/assets/images/posts/thm-rrootme-07.png)
 
-Now we will try to upload a PHP reverse shell. I simply grabbed a pre-generated one from https://www.revshells.com.
+Now we will try to upload a PHP reverse shell. I simply grabbed a pre-generated one from [https://www.revshells.com](https://www.revshells.com).
 
 ![](/assets/images/posts/thm-rrootme-08.png)
 
