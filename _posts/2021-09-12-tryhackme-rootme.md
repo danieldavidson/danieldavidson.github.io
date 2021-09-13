@@ -211,6 +211,7 @@ www-data@rootme:/$
 ```
 
 ## Maintaing Access / Priviledge Escalation
+---
 
 Now that we have a foothold into the target we can start trying to priviledge escalate ourselves. We'll use `linpeas.sh`. Basically `linpeas.sh` is a tool for finding a plethora of privesc methods based upon a dynamic list that hacktricks manages. I won't go into detail on how to utilize `linpeas.sh` as there are plenty of tutorials that cover this. Google is your friend. Check out the [linpeas.sh Github repo](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) for more info.
 
