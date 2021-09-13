@@ -196,7 +196,7 @@ Now we'll try to upload our reverse shell again.
 
 Success! Now we click the file to run it and...
 
-Wala! We have shell!
+Wala! We have a shell!
 
 ```console
 Ncat: Connection from 10.10.85.94.
