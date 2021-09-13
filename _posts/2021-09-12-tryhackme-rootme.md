@@ -164,7 +164,9 @@ Once you've found the POST request we can right-click and select "Sent to Intrud
 
 Now here I won't explain how to use Intruder for the sake of brevity on this post. That said, be sure to check out the [TryHackMe Burpsuite room](https://tryhackme.com/room/rpburpsuite) for a more detailed explanation on Intruder and many other features within Burpsuite.
 
-Essentially what I did in this process is test various file extensions against the upload form to see which ones are allowed and disallowed. One particular file extension that stood out is `php5`. This allows us to still upload `php` code in our reverse shell but under a alternate extension. For more info on this read this article [https://null-byte.wonderhowto.com/how-to/bypass-file-upload-restrictions-web-apps-get-shell-0323454/](). Other alternate `php` extensions include:
+Essentially what I did in this process is test various file extensions against the upload form to see which ones are allowed and disallowed. One particular file extension that stood out is `php5`. This allows us to still upload `php` code in our reverse shell but under a alternate extension. For more info on this read this [Nullbyte article](https://null-byte.wonderhowto.com/how-to/bypass-file-upload-restrictions-web-apps-get-shell-0323454/). 
+
+Other alternate `php` extensions include:
 
 ```console
 .pht, .phtml, .php3, .php4, .php5, .php6, .inc
