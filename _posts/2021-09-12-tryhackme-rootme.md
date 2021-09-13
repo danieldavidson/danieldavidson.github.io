@@ -160,7 +160,7 @@ What we need to do now is find the POST request to the form we previously made.
 
 ![](/assets/images/posts/thm-rrootme-10.png)
 
-Once you've found the POST request we can right-click and select "Sent to Intruder" or press Ctrl + i
+Once you've found the POST request we can right-click and select "Sent to Intruder" or press `Ctrl`{: .key}+`I`{:.key}
 
 Now here I won't explain how to use Intruder for the sake of brevity on this post. That said, be sure to check out the [TryHackMe Burpsuite room](https://tryhackme.com/room/rpburpsuite) for a more detailed explanation on Intruder and many other features within Burpsuite.
 
