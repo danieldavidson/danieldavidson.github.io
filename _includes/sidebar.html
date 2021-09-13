@@ -1,7 +1,7 @@
 <div class="sidebar ">
   <h2 class="sidebar-recent-posts-text">Recent Posts</h2>
   <ul>
-    {% for post in site.posts limit:7 %}
+    {% for post in site.posts limit:5 %}
     <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
