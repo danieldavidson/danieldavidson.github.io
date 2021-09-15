@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Blue Team Labs Online Writeup: Phishing Analysis"
+title:  "BTLO Writeup: Phishing Analysis"
 date:   2021-09-14 22:30:00
-description: "BTLO: Phishing Analysis Writeup"
+description: "Blue Team Labs: Phishing Analysis Writeup"
 toc: true
 tags:
  - blueteamlabsonline
