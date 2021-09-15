@@ -157,9 +157,7 @@ Copyright © 1999-2021 Amazon. All rights reserved.
 **A.** https://images.squarespace-cdn.com/content/52e2b6d3e4b06446e8bf13ed/1500584238342-OX2L298XVSKF8AO6I3SV/amazon-logo?format=750w&amp;content-type=image%2Fpng
 
 ```
-<TD width="600" align="center" valign="top" 
-      style="width: 600px;">&nbsp;<IMG width="749" height="67" style="width: 100px;" 
-      alt="" src="https://images.squarespace-cdn.com/content/52e2b6d3e4b06446e8bf13ed/1500584238342-OX2L298XVSKF8AO6I3SV/amazon-logo?format=750w&amp;content-type=image%2Fpng" 
+... src="https://images.squarespace-cdn.com/content/52e2b6d3e4b06446e8bf13ed/1500584238342-OX2L298XVSKF8AO6I3SV/amazon-logo?format=750w&amp;content-type=image%2Fpng" 
       border="0" hspace="0"> 
 ```
 
@@ -168,8 +166,7 @@ Copyright © 1999-2021 Amazon. All rights reserved.
 **A.** amir.boyka.7
 
 ```
-Sincerely,&nbsp;</EM></SPAN></SPAN><BR></P>
-  <DIV style="text-align: center;"><A href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Famir.boyka.7&amp;data=04%7C01%7C%7C70072381ba6e49d1d12d08d94632811e%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637618004988892053%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=KVi%2BG1%2BFO3v3ALNVowA1PrenHiT3aT%2FIvb5y1KxkAkc%3D&amp;reserved=0" originalSrc="https://www.facebook.com/amir.boyka.7"
+...originalSrc="https://www.facebook.com/amir.boyka.7"
 ```
 
 ## References:
