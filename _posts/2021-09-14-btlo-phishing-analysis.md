@@ -11,7 +11,7 @@ tags:
 comments: true
 ---
 
-Reading Time: 10 minutes
+Reading Time: 7 minutes
 
 ---
 
