@@ -59,6 +59,8 @@ This message was created automatically by mail delivery software.
 
 ### **Q.** What is the date and time the email was sent?
 
+**A.** 18 March 2021 04:14
+
 ```
 ________________________________
 From: Mail Delivery System <Mailer-Daemon@se7-syd.hostedmail.net.au>
@@ -69,8 +71,6 @@ Subject: Undeliverable: Website contact form submission
 This message was created automatically by mail delivery software.
 ...
 ```
-
-**A.** 18 March 2021 04:14
 
 ### **Q.** What is the Orginating IP?
 
