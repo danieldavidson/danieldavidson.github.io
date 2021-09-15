@@ -27,7 +27,7 @@ This is my write-up for [Phishing Analysis](https://blueteamlabs.online/home/cha
 
 >A user has received a phishing email and forwarded it to the SOC. Can you investigate the email and attachment to collect useful artifacts?
 
-To solve this challenge we are required to download the task file, extract the zip file using the password provided, and open the `.eml` file in any text editor you want. I will using `gedit`.
+To solve this challenge we are required to download the task file, extract the zip file using the password provided, and open the `.eml` file in any text editor you want. I will be using `gedit`.
 
 ### **Q.** Who is the primary recipient of this email?
 
