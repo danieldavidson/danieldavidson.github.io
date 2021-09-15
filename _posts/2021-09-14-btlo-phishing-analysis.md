@@ -152,3 +152,6 @@ Answer is contained within the URL
 **A.** Blog has been removed
 
 Go to [https://www.url2png.com](https://www.url2png.com) and paste the URL found inside the attachment.
+
+## References:
+- [https://blog.joshlemon.com.au/analysing-malicious-email-files/](https://blog.joshlemon.com.au/analysing-malicious-email-files/)
