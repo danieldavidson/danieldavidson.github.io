@@ -77,13 +77,13 @@ A simple google search of the name **OWoodflint** returns some pretty juicy info
 
 Let's go through the top 3 results.
 
-1. What is this users avatar of?
+- What is this users avatar of?
 
 Found this through checking the Twitter account
 
 ![](https://i.imgur.com/70pmBte.png)
 
-2. What city is this person in?
+- What city is this person in?
 
 The person made a tweet regarding "free wifi" and publicly shared a BSSID. Let's cross-reference the BSSID with [wigle.net](https://wigle.net/). Here's a great article on [wigle.net](https://wigle.net/) - [OSINT: Tracking the Suspect's Precise Location Using Wigle.net](https://www.hackers-arise.com/post/osint-tracking-the-suspect-s-precise-location-using-wigle-net).
 
@@ -93,29 +93,29 @@ You have to create an account to access [Wigle.net](https://wigle.net/). Once th
 
 ![](https://i.imgur.com/rAj52r4.png)
 
-3. Whats the SSID of the WAP he connected to?
+- Whats the SSID of the WAP he connected to?
 
 [Wigle.net](https://wigle.net/) also reveals to us the SSID/ESSID of the WAP (Wireless Access Point) he's connected to.
 
 ![](https://i.imgur.com/IQxEgaf.png)
 
-4. What is his personal email address?
+- What is his personal email address?
 
 Look at the other links we gained in our intelligence search you'll find his personal email on Github.
 
 ![](https://i.imgur.com/qBKJIDB.png)
 
-5. What site did you find his email address on?
+- What site did you find his email address on?
 
 Github
 
-6. Where has he gone on holiday?
+- Where has he gone on holiday?
 
 If we look at Mr. Oliver Wood Flints blog we find that he is currently in **New York**.
 
 ![](https://i.imgur.com/iIQgGTi.png)
 
-7. What is this persons password?
+- What is this persons password?
 
 Last but not least this is probably the most challenging on the flags. My first instinct was to check the source code of the blog for any information. To my surprise I found a peculiar string laying in the open.
 
