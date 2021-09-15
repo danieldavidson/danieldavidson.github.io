@@ -23,7 +23,7 @@ This is my write-up for [Phishing Analysis](https://blueteamlabs.online/home/cha
 
 **P.S: I highly encourage you to try solving the challenges on your own first then check this writeup if you are stuck.**
 
-### Scenario
+## Scenario
 
 >A user has received a phishing email and forwarded it to the SOC. Can you investigate the email and attachment to collect useful artifacts?
 
