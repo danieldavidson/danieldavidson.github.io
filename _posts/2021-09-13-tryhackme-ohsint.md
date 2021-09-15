@@ -101,7 +101,7 @@ You have to create an account to access [Wigle.net](https://wigle.net/). Once th
 
 - What is his personal email address?
 
-Look at the other links we gained in our intelligence search you'll find his personal email on Github.
+Looking at the other links we gained in our intelligence search you'll find his personal email on Github.
 
 ![](https://i.imgur.com/qBKJIDB.png)
 
