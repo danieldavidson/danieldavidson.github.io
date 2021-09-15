@@ -5,8 +5,8 @@ date:   2021-09-14 22:30:00
 description: "Blue Team Labs: Phishing Analysis Writeup"
 toc: true
 tags:
- - blueteamlabsonline
- - pentesting
+ - blueteamlabs
+ - SOC
  - security operations
 comments: true
 ---
@@ -18,7 +18,7 @@ Reading Time: 7 minutes
 This is my write-up for [Phishing Analysis](https://blueteamlabs.online/home/challenge/16) on Blue Team Labs.
 
 <p align="center">
-  <img src="https://i.imgur.com/YqQ2Ljr.png">
+  <img src="https://i.imgur.com/ig5AkZP.png">
 </p>
 
 **P.S: I highly encourage you to try solving the challenges on your own first then check this writeup if you are stuck.**
