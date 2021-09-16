@@ -23,13 +23,13 @@ This is my write-up for [Phishing Analysis](https://blueteamlabs.online/home/cha
 
 **P.S: I highly encourage you to try solving the challenges on your own first then check this writeup if you are stuck.**
 
-## Scenario
+**Scenario**
 
 >A user has received a phishing email and forwarded it to the SOC. Can you investigate the email and attachment to collect useful artifacts?
 
 To solve this challenge we are required to download the task file, extract the zip file using the password provided, and open the `.eml` file in any text editor you want. I will be using `gedit`.
 
-### **Q.** Who is the primary recipient of this email?
+## **Q.** Who is the primary recipient of this email?
 
 **A.** kinnar1975@yahoo.co.uk
 
@@ -41,7 +41,7 @@ To: kinnar1975@yahoo.co.uk <kinnar1975@yahoo.co.uk>
 ...
 ```
 
-### **Q.** What is the subject of this email?
+## **Q.** What is the subject of this email?
 
 **A.** Undeliverable: Website contact form submission
 
@@ -57,7 +57,7 @@ This message was created automatically by mail delivery software.
 
 ```
 
-### **Q.** What is the date and time the email was sent?
+## **Q.** What is the date and time the email was sent?
 
 **A.** 18 March 2021 04:14
 
@@ -72,7 +72,7 @@ This message was created automatically by mail delivery software.
 ...
 ```
 
-### **Q.** What is the Orginating IP?
+## **Q.** What is the Orginating IP?
 
 **A.** 103.9.171.10
 
@@ -97,7 +97,7 @@ Subject: Website contact form submission
 ...
 ```
 
-### **Q.** Perform reverse DNS on this IP address, what is the resolved host?
+## **Q.** Perform reverse DNS on this IP address, what is the resolved host?
 
 **A.** c5s2-1e-syd.hosting-services.net.au
 
@@ -105,7 +105,7 @@ Used [https://whois.domaintools.com](https://whois.domaintools.com/103.9.171.10)
 
 ![](https://i.imgur.com/UIAh6Im.png)
 
-### **Q.** What is the name of the attached file?
+## **Q.** What is the name of the attached file?
 
 **A.** Website contact form submission.eml
 
@@ -114,7 +114,7 @@ Used [https://whois.domaintools.com](https://whois.domaintools.com/103.9.171.10)
 'Website contact form submission.eml'
 ```
 
-### **Q.** What is the URL found inside the attachment?
+## **Q.** What is the URL found inside the attachment?
 
 **A.** https://35000usdperwwekpodf.blogspot.sg?p=9swghttps://35000usdperwwekpodf.blogspot.co.il?o=0hnd
 
@@ -141,17 +141,17 @@ https://35000usdperwwekpodf.blogspot.com/?p=9swghttps://35000usdperwwekpodf.blog
 https://35000usdperwwekpodf.blogspot.sg?p=9swghttps://35000usdperwwekpodf.blogspot.co.il?o=0hnd
 ```
 
-### **Q.** What service is this webpage hosted on?
+## **Q.** What service is this webpage hosted on?
 
 **A.** Blogspot
 
 Answer is contained within the URL
 
-### **Q.** Using URL2PNG, what is the heading text on this page? (Doesn't matter if the page has been taken down!)
+## **Q.** Using URL2PNG, what is the heading text on this page? (Doesn't matter if the page has been taken down!)
 
 **A.** Blog has been removed
 
 Go to [https://www.url2png.com](https://www.url2png.com) and paste the URL found inside the attachment.
 
-## References:
+**References:**
 - [https://blog.joshlemon.com.au/analysing-malicious-email-files/](https://blog.joshlemon.com.au/analysing-malicious-email-files/)
