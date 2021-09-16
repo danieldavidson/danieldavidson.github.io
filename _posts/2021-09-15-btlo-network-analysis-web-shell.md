@@ -105,7 +105,7 @@ Looking closer we see the `Referer` references `http://10.251.96.5/editprofile.p
 ## **Q.** What is the name of the web shell that the attacker uploaded?
 **A.** dbfunctions.php
 
-Digging further into packet no. 16102 we can follow the TCP Stream by selecting the packet and pressing `Ctrl`{: .key}+`Alt`{:.key}`Shift`{:.key}`T`{:.key}
+Digging further into packet no. 16102 we can follow the TCP Stream by selecting the packet and pressing `Ctrl`{: .key}+`Alt`{:.key}+`Shift`{:.key}+`T`{:.key}
 
 Following the TCP Stream, this cleanly lays out the packet information, where we see the uploaded filename `dbfunctions.php`.
 
