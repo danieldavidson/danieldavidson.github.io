@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BTLO Writeup: Network Analysis - Web Shell"
+title:  "BTLO: Network Analysis - Web Shell"
 date:   2021-09-15 22:30:00
 description: "Blue Team Labs: Network Analysis - Web Shell Writeup"
 toc: true

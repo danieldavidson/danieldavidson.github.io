@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BTLO Writeup: Phishing Analysis 2"
+title:  "BTLO: Phishing Analysis 2"
 date:   2021-09-14 23:30:00
 description: "Blue Team Labs: Phishing Analysis 2 Writeup"
 toc: true
