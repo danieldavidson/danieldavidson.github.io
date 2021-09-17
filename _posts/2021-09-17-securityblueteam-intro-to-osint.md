@@ -52,7 +52,11 @@ Now I'm not going to go over or elude to anything in the challenge but I will sa
 
 For the final challenge, you need at least an 80% passing score on a total of 12 questions. We submitted our answers and got a total of 10 out of 12 correct. I was relieved I had passed and received my certificate.
 
+## Certificate
+
 ![](https://i.imgur.com/2trzyNN.png)
+
+## Conclusion
 
 Overall, I'd say this was a really good course. I still say the quizzes could use some work but for a good introduction to what OSINT is all about I feel like it covers the bases pretty well. It's challenging and will push your limits a bit. I'd recommend this course to anyone in the Cybersecurity industry. Whether you're a red teamer or a blue teamer OSINT is crucial. It can make all the difference between widening the attack surface or in terms of defense reducing that attack surface.
 
