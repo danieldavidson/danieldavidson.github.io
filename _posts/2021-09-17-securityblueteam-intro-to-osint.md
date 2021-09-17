@@ -5,7 +5,7 @@ date:   2021-09-17 23:30:00
 description: "A review on Introduction to OSINT Course"
 toc: true
 tags:
- - blueteamlabs
+ - security blue team
  - SOC
  - security operations
  - reviews
