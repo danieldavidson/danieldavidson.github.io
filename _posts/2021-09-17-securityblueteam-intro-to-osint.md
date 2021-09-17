@@ -16,6 +16,10 @@ Reading Time: 7 minutes
 
 ---
 
+## Certificate
+
+![](https://i.imgur.com/2trzyNN.png)
+
 I'd like to take a moment to give a very big thank you to everyone that has been following me and reading my posts or just popping in to say hello! 
 
 To be completely quite honest I started this blog more or less as a memory device that I could refer back to in case I needed brushing up on something I've covered before. That said, I never thought anyone would find anything here valuable so I'm really glad that you all find something here useful.
@@ -51,10 +55,6 @@ After pushing through the quizzes, the course ends with a final challenge. I was
 Now I'm not going to go over or elude to anything in the challenge but I will say that it was fun and probably one of the most realistic challenges I've done so far. You could tell they spent a good amount of time building this challenge and I feel like due to the difficulty I'm more likely to walk away remembering what I learned versus some other platforms that handhold a little too much. I wish we had taken a break because at times it was information overload and just too many roads to cover at one time. That said, I feel like that is a real representation of what a lot of OSINT practitioners go through, and being able to stay calm and push through I imagine is essential.
 
 For the final challenge, you need at least an 80% passing score on a total of 12 questions. We submitted our answers and got a total of 10 out of 12 correct. I was relieved I had passed and received my certificate.
-
-## Certificate
-
-![](https://i.imgur.com/2trzyNN.png)
 
 ## Conclusion
 
