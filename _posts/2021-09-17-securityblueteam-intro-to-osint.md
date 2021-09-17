@@ -28,7 +28,7 @@ Little did I know a good friend of mine was also pursuing OSINT challenges and m
 
 ## Course Content
 
-I looked over the course content and it looked very interesting. I felt like it would give me a clearer methodology process for gathering intelligence and the price wasn't too bad either. At the time of this writing, it was only £20, which was about $27. I also liked that it gave you a certificate of completion upon completing the course. On that note, I tend to gravitate to platforms or resources that offer certificates like that because I feel like it gives me something to show for how I spent my time and effort.
+I looked over the course content and it looked very interesting. I felt like it would give me a clearer methodology process for gathering intelligence and the price wasn't too bad either. At the time of this writing, it was only £20, which was about $27. I also liked that it gave you a certificate of completion upon completing the course. On that note, I tend to gravitate to platforms or resources that offer certificates like that because I feel like it gives me something to show for on how I spent my time and effort.
 
 I created an account, logged in, and purchased the course. Blah blah blah! You know the usual stuff. Martin and I got in a discord call and started chipping away at it. Each lesson covered a different subject matter. These included theHarvester, Maltego, Google Dorking, OSINT framework, Reverse Image Searching with Google, and Tineye to name a few. Read through each module, practiced the example exercises, and read the supplemental links provided. 
 
