@@ -13,7 +13,7 @@ Reading Time: 15 minutes
 
 ---
 
-[CyberSoc | Detective CTF](https://ctf.cybersoc.wales/) is a platform that contains many OSINT-based challenges. It was created by the [Cyber Society at Cardiff University](https://cybersoc.wales/about).
+[CyberSoc Detective CTF](https://ctf.cybersoc.wales/) is a platform that contains many OSINT-based challenges. It was created by the [Cyber Society at Cardiff University](https://cybersoc.wales/about).
 
 ![](https://i.imgur.com/nJMDhzV.png)
 
