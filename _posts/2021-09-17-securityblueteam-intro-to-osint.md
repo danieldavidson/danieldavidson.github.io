@@ -42,7 +42,7 @@ Unfortunately, some of the questions became frustrating, specifically when we go
 For example:
 
 Correct:
-`#Microsfot and Vulnerabilities`
+`#Microsoft and Vulnerabilities`
 
 Incorrect:
 `Vulnerabilities and #Microsoft`
