@@ -32,7 +32,7 @@ In this post, I will be covering my write-up for the Life Online challenges.
 
 ![](https://i.imgur.com/HaK1GCh.png)
 
-We're given Mr. James Markson's twitter profile so let's see if we can deduce his profile to discern his political affiliation.
+We're given Mr. James Markson's twitter profile so let's see if we can deduce from his profile his political affiliation.
 
 ![](https://i.imgur.com/0jcbH1p.png)
 
