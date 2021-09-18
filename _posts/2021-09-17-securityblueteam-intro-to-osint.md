@@ -6,9 +6,8 @@ description: "A review on Introduction to OSINT Course"
 toc: true
 tags:
  - security blue team
- - SOC
- - security operations
  - reviews
+ - OSINT
 comments: true
 ---
 
