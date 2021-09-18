@@ -5,7 +5,8 @@ title: Goals
 
 # Goals & Achievements
 
-![](https://64.media.tumblr.com/74da0da06021e35cf5017d8b2479ef71/tumblr_p5qcmdaKXR1x5p4g9o1_1280.gifv)
+![](https://mir-s3-cdn-cf.behance.net/project_modules/fs/5eb19057872169.59f1cb4b2f792.gif)
+<!-- ![](https://64.media.tumblr.com/74da0da06021e35cf5017d8b2479ef71/tumblr_p5qcmdaKXR1x5p4g9o1_1280.gifv)-->
 
 Here is a slightly condensed version of my goals and achievements to hold myself accountable.
 
