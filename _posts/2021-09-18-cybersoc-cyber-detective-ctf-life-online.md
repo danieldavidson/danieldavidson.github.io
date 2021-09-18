@@ -25,6 +25,8 @@ In this post, I will be covering my write-up for the Life Online challenges.
 
 ## voteforme
 
+200 points
+
 ![](https://i.imgur.com/HaK1GCh.png)
 
 We're given Mr. James Markson's twitter profile so let's see if we can deduce his profile to discern his political affiliation.
@@ -44,6 +46,8 @@ Suffice to say James is a Democrat.
 ---
 
 ## growingup
+
+200 points
 
 ![](https://i.imgur.com/E8flNS4.png)
 
@@ -69,6 +73,8 @@ Essentially the tool allows people to use **3 words** to encode a person's preci
 
 ## choochoo
 
+200 points
+
 ![](https://i.imgur.com/0DsBdFt.png)
 
 Amongst two tweets I was able to discern the answer to this challenge. For one, the train James usually boards on his way home is pretty consistently late. 
@@ -87,6 +93,8 @@ Upon reverse image searched the picture of the train station I discovered the na
 
 ## suntan
 
+200 points
+
 ![](https://i.imgur.com/EyzSwn9.png)
 
 You can see that under James's **likes** that he liked a tweet from an associate named Sarah Luxton(*Twitter: @sarah_luxton*). This tweet details a picture of what perceives to be her upcoming vacation in two weeks and the location thereof.
@@ -102,6 +110,8 @@ The location is Perth.
 ---
 
 ## wagthetail
+
+200 points
 
 ![](https://i.imgur.com/7XavhKH.png)
 
@@ -124,6 +134,8 @@ The answer for this challenge is simply **Brecon**.
 
 ## narcissism
 
+200 points
+
 ![](https://i.imgur.com/AIJysVX.png)
 
 Looking back again at James Markson's Twitter likes I stumbled upon a bold but stupid tweet by another associate by the name of George Watson(*Twitter: @GeorgeWatson428*). He thinks his password is "...secure and unbreakable!"
@@ -142,6 +154,8 @@ imamazing123
 
 ## proppedup
 
+200 points
+
 ![](https://i.imgur.com/hFs0IR1.png)
 
 On George’s Twitter profile, we find another target named Pearce Ress(*Twitter: @PearceRess*). Pearce casually mentions George left his debit card laying around and states he left George's credit card on his desk. Also provides a proof photo of George Watson's desk.
@@ -153,6 +167,8 @@ I'm still puzzled by what the numbers mean but the answer was **Brown Silver**.
 ---
 
 ## bluengreen
+
+250 points
 
 ![](https://i.imgur.com/X2IvKqY.png)
 
@@ -168,6 +184,8 @@ Blowing the banner up in full size reveals a flag: **icanseeyou**
 
 ## clockingout
 
+250 points
+
 ![](https://i.imgur.com/brRwQGD.png)
 
 In one of his tweets, James mentions how it was a tough 8 hour day of work. The timestamp on the post reflects 4:02 PM, which subtracting 8 hours from then means he started work at 8:00 am.
@@ -182,6 +200,8 @@ Twitter shows the tweet timestamps based upon the viewer's location or the origi
 
 ## meme
 
+250 points
+
 ![](https://i.imgur.com/0vMrZV9.png)
 
 This one was really easy as I had already seen through my enumeration of each target the text message conversation referencing a meme and a Software Access Code.
@@ -193,6 +213,8 @@ Answer was **CTF3404X71**
 ---
 
 ## partytime
+
+400 points
 
 ![](https://i.imgur.com/UsufQnw.png)
 
@@ -216,6 +238,8 @@ I also used Google Maps and selected the Public Transport option:
 ---
 
 ## leaveamessage
+
+1000 points
 
 ![](https://i.imgur.com/5YXRQhG.png)
 
