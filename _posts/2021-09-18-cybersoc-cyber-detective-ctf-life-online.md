@@ -66,10 +66,10 @@ After browsing through more of his tweets, James references an app called [what3
 
 Essentially the tool allows people to use **3 words** to encode a person's precise location on their online map tool. Let's put in the phrases found on his Twitter before.
 
-**Born in...Bristol** 
+Born in...**Bristol** 
 ![](https://i.imgur.com/sDw8yKZ.png)
 
-**Raised in...York**
+Raised in...**York**
 ![](https://i.imgur.com/1WUg6Fe.png)
 
 ---
