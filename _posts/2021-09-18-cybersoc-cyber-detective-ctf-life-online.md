@@ -100,7 +100,7 @@ Upon reverse image searched the picture of the train station I discovered the na
 
 ![](https://i.imgur.com/EyzSwn9.png)
 
-You can see that under James's **likes** that he liked a tweet from an associate named Sarah Luxton(*Twitter: @sarah_luxton*). This tweet details a picture of what perceives to be her upcoming vacation in two weeks and the location thereof.
+Amongst James's **Twitter likes** that he liked a tweet from an associate named Sarah Luxton(*Twitter: @sarah_luxton*). This tweet details a picture of what perceives to be her upcoming vacation in two weeks and the location thereof.
 
 ![](https://i.imgur.com/eXX9O5W.png)
 
