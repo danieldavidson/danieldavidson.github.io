@@ -2,7 +2,7 @@
 layout: post
 title:  "CyberSoc | Cyber Detective CTF: Life Online"
 date:   2021-09-17 23:30:00
-description: "Life Online Writeup"
+description: "Cyber Detective CTF: Life Online Writeup"
 toc: true
 tags:
  - OSINT
