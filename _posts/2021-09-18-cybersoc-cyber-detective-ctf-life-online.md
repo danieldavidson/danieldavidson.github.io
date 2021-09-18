@@ -228,13 +228,13 @@ I used a combination of tools and compared the results to see if anything matche
 
 ![](https://i.imgur.com/G2SWrhc.png)
 
-Looks like the best route is bus 58.
-
 I also used Google Maps and selected the Public Transport option:
 
 ![](https://i.imgur.com/tEtElui.png)
 
 ![](https://i.imgur.com/xy70yzr.png)
+
+Looks like the best route is bus 58.
 
 ---
 
