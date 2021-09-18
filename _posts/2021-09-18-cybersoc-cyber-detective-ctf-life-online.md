@@ -121,7 +121,6 @@ The location is **Perth**.
 Inspecting Sarah's profile she mentions, "Buster favorite place" and then provides some latitude longitude coordinates. I'm assuming "Buster" is her dog name.
 
 ![](https://i.imgur.com/WzBxQpf.png)
-![](https://i.imgur.com/rkcw1eP.png)
 
 Cross-referencing the coordinates with Google Maps, we have a pin on a bridge at 2 Bridge Street, Brecon LD3 9AH, UK
 
