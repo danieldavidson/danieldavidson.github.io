@@ -235,6 +235,7 @@ I also used Google Maps and selected the Public Transport option:
 ![](https://i.imgur.com/tEtElui.png)
 
 ![](https://i.imgur.com/xy70yzr.png)
+
 ---
 
 ## leaveamessage
