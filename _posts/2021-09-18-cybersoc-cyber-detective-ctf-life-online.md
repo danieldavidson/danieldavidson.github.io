@@ -108,7 +108,7 @@ Again I did a reverse image search in Google.
 
 ![](https://i.imgur.com/xofXK0p.png)
 
-The location is Perth.
+The location is **Perth**.
 
 ---
 
