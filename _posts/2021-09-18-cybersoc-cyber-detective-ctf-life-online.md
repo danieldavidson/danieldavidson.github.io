@@ -6,6 +6,7 @@ description: "Cyber Detective CTF: Life Online Writeup"
 toc: true
 tags:
  - OSINT
+ - CyberSoc
 comments: true
 ---
 
