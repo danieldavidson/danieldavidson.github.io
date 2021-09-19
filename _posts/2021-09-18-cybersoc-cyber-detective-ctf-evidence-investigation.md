@@ -37,7 +37,7 @@ Okay so they want us to find the **BRAND** and **MONTH** a vehicle was made. Giv
 
 ![](https://i.imgur.com/Db64W7p.png)
 
-Incase you didn't already know, "dvla" stands for *Driver and Vehicle Licensing Agency*. I personally had a little bit of issue finding a proper site that I could input a license plate into and it return the desired output. That said, I did find two reliable ones:
+In case you didn't already know, "dvla" stands for *Driver and Vehicle Licensing Agency*. I had a little bit of an issue finding a proper site that I could input a license plate into and it return the desired output. That said, I did find two reliable ones:
 
 - [vehicleenquiry.service.gov.uk](https://vehicleenquiry.service.gov.uk/)
 - [checkcardetails.co.uk](https://www.checkcardetails.co.uk/).
