@@ -48,7 +48,7 @@ Upon entering in CY10HHB...
 
 ![](https://i.imgur.com/X92bfXJ.png)
 
-Answer: **Ford June**.
+>Answer: **Ford June**.
 
 ---
 
@@ -64,6 +64,6 @@ Precisely at the June 1st, 2016 snapshot, I found this.
 
 ![](https://i.imgur.com/87WBakG.png)
 
-Answer: **IceCTF{Th3y'11_n3v4r_f1|\|d_m4h_fl3g_1n_th3_p45t}**
+>Answer: **IceCTF{Th3y'11_n3v4r_f1|\|d_m4h_fl3g_1n_th3_p45t}**
 
 ---
