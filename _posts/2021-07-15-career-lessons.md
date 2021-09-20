@@ -5,7 +5,7 @@ date: 2021-07-18 21:31:06
 description: Just a few things I've learned along the way
 tags:
  - journal
-comments: true
+comments: false
 ---
 
 Reading Time: 2 minutes

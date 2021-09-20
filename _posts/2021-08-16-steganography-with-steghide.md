@@ -7,7 +7,7 @@ tags:
  - linux
  - cryptography
  - forensics
-comments: true
+comments: false
 ---
 
 Reading Time: 4 minutes

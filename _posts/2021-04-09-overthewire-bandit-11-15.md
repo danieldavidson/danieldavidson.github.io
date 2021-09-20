@@ -7,7 +7,7 @@ toc: true
 tags:
  - overthewire
  - pentesting
-comments: true
+comments: false
 ---
 
 Reading Time: 10 minutes

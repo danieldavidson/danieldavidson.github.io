@@ -6,7 +6,7 @@ description: "TryHackMe: OhSINT Writeup"
 toc: true
 tags:
  - OSINT
-comments: true
+comments: false
 ---
 
 Reading Time: 7 minutes

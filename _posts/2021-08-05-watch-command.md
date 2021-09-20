@@ -7,7 +7,7 @@ tags:
  - windows
  - powershell
  - coding
-comments: true
+comments: false
 ---
 
 Reading Time: 5 minutes

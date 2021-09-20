@@ -8,7 +8,7 @@ tags:
  - security blue team
  - reviews
  - OSINT
-comments: true
+comments: false
 ---
 
 Reading Time: 7 minutes

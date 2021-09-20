@@ -5,7 +5,7 @@ date: 2021-04-04 23:18:06
 description: Hello friend...
 tags:
  - journal
-comments: true
+comments: false
 ---
 
 Reading Time: 2 minutes

@@ -7,7 +7,7 @@ toc: true
 tags:
  - OSINT
  - CyberSoc
-comments: true
+comments: false
 ---
 
 Reading Time: 15 minutes
