@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CyberSoc | Cyber Detective CTF: Evidence Investigation"
-date:   2021-09-18 22:30:00
+date:   2021-09-19 22:30:00
 description: "Cyber Detective CTF: Evidence Investigation Writeup"
 toc: true
 tags:
@@ -59,6 +59,8 @@ Upon entering in CY10HHB...
 ![](https://i.imgur.com/gc2qYlT.png)
 
 They mention the site([time-traveler.icec.tf](http://time-traveler.icec.tf/)) was accessible 4 years ago. Let's see if [The Wayback Machine](https://archive.org/web/) can help us go back in time and retrieve a snapshot of the website.
+
+![](https://i.imgur.com/VwXuUnp.png)
 
 Precisely at the June 1st, 2016 snapshot, I found this.
 
