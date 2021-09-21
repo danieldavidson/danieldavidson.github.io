@@ -69,3 +69,28 @@ Precisely at the June 1st, 2016 snapshot, I found this.
 >Answer: **IceCTF{Th3y'11_n3v4r_f1|\|d_m4h_fl3g_1n_th3_p45t}**
 
 ---
+
+## chemtrails
+
+350 points
+
+![](https://i.imgur.com/yFt8rqT.png)
+
+So we're given a boarding pass and tasked to find the seat number.
+
+![](https://i.imgur.com/uyrClMw.png)
+
+I cropped out the barcode on the boarding pass.
+
+![](https://i.imgur.com/Gf8mPnN.png)
+
+I then used an free online barcode reader from [Inline](https://online-barcode-reader.inliteresearch.com/).
+
+![](https://i.imgur.com/q6rYDCL.png)
+
+Selected the barcode type and read the results.
+
+![](https://i.imgur.com/rAJ0BXI.png)
+
+>Answer: **22B**
+
