@@ -24,7 +24,8 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - Obtain [eJPT](https://elearnsecurity.com/product/ejpt-certification/) certification
 - Complete Practical Ethical Hacking course at [TCM](https://academy.tcm-sec.com)
 - Complete Penetration Testing Student course at [INE](https://ine.com/)
-- Complete [Splunk Fundamentals Part 1 course](https://www.splunk.com/en_us/training/free-courses/splunk-fundamentals-1.html) at [Splunk](https://www.splunk.com/)
+- Complete [Intro to OSINT](https://securityblue.team/open-source-intelligence-training-beginner) course at [Security Blue Team](https://securityblue.team)
+- Complete [Splunk Fundamentals Part 1](https://www.splunk.com/en_us/training/free-courses/splunk-fundamentals-1.html) course at [Splunk](https://www.splunk.com/)
 - Complete [SOC Essentials course](https://www.udemy.com/course/soc-essentials/) at [Udemy](https://www.udemy.com)
 - <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
 - <span style="color: #9ADD15;">~~Build a Proxmox virtualization lab~~ - 07/12/2021</span>
