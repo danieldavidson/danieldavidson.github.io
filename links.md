@@ -7,6 +7,10 @@ title: Links
 
 Below, I’ve compiled a number of resources I have come across which span topics related to system administration, Unix/Linux, penetration testing, and cyber security. As this list will be constantly evolving, please reach out to me if you have a resource(s) that you would like to contribute. Also, feel free to check out my [Pin-board](https://danieldav.notion.site/Daniel-s-Pin-board-588ee4d3e8ea499e8a332b9a9c1779a9) for some of my other interests or news I'm keeping up with.
 
+## Current Studies
+
+- [Study Calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vThAsqZ10T-qImrnpd3tcAIL86El04odR15FhXQqGNkwkEDAXVzXakiEbuLdr0U1AUAINAz4iB1o_Nm/pubhtml)
+
 ## Gear
 
 - [My Tech EDC Bag](https://kit.co/danieldavidson/tech-edc)

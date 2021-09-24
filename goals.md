@@ -20,7 +20,7 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 
 #### 2021
 - <span style="color: #9ADD15;">~~Build my blog~~ - 03/22/2021</span>
-- 🔥 Obtain [eJPT](https://elearnsecurity.com/product/ejpt-certification/) certification - [Click here for ejPT Study Group Calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vThAsqZ10T-qImrnpd3tcAIL86El04odR15FhXQqGNkwkEDAXVzXakiEbuLdr0U1AUAINAz4iB1o_Nm/pubhtml)
+- Obtain [eJPT](https://elearnsecurity.com/product/ejpt-certification/) certification
 - Complete Practical Ethical Hacking course at [TCM](https://academy.tcm-sec.com)
 - Complete Penetration Testing Student course at [INE](https://ine.com/)
 - <span style="color: #9ADD15;">~~Complete OverTheWire - Bandit wargame and do writeups~~ - 04/21/2021</span>
