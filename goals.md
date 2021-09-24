@@ -36,7 +36,7 @@ Here is a slightly condensed version of my goals and achievements to hold myself
 - <span style="color: #9ADD15;">~~Become top 5% on [TryHackMe](https://tryhackme.com)~~ - 08/01/2021</span>
 - Become top 1% on [TryHackMe](https://tryhackme.com)
 - Complete all CyberSoc | Cyber Detective challenges
-- Complete all [BTLO](https://blueteamlabs.online/) challenges in the Security Operations category
+- Complete 5 [BTLO](https://blueteamlabs.online/) challenges in the Security Operations category
 - Complete [2021 Reading Challenge](https://www.goodreads.com/user_challenges/28258804), 5 out 12 works read
 - <span style="color: #9ADD15;">~~Reach 500 connections on LinkedIn~~ - 08/11/2021</span>
 
